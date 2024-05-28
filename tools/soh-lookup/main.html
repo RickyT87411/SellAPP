@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	
+		<!-- Basic Page Needs
+		========================= -->
+		<meta charset="utf-8">
+		<title>Stock-on-Hand Lookup</title>
+		<meta name="Stock-on-Hand Lookup" content="">
+		<meta name="Mark Zammit" content="">
+		
+		<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+		<meta http-equiv="expires" content="Sat, 31 Oct 2014 00:00:00 GMT">
+		<meta http-equiv="pragma" content="no-cache">
+		
+		<!-- Mobile Specific Metas
+		========================= -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+		<!-- FONT
+		========================= -->
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		
+				<!-- Favicon
+		========================= -->
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		
+		<!-- CSS
+		========================= -->
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/lobibox.css">
+		<link rel="stylesheet" href="/css/lobibox-cust.css">
+		<link rel="stylesheet" href="/css/skeleton.css">
+		<link rel="stylesheet" href="/css/font-awesome.css">
+		<link rel="stylesheet" href="/css/tilemenu/style2.css">
+        <link rel="stylesheet" href="/css/info.css">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/css/sidenav.css">
+        <link rel="stylesheet" href="/css/jquery.tagit.css">
+        <link rel="stylesheet" href="/css/jquery.dynatable.css">
+        <link rel="stylesheet" href="/css/settings-dropdown.css">
+        <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css">
+        <link rel="stylesheet" href="/css/range-input-display.css">
+        <link rel="stylesheet" href="extensions/jquery/jquery-ui-1.8.16.custom.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/responsive-table.css">
+		<link rel="stylesheet" href="css/main.css">
+		
+		<!-- Javascript
+		========================= -->
+		<script src="/js/editablegrid.js"></script>
+		<script src="/js/jquery-2.2.3.min.js" type="text/javascript"></script>
+		<script src="/js/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/js/jquery.dynatable.js"></script>
+		<!--<script src="extensions/jquery/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>-->
+		<script src="/js/jquery.plugin.js" type="text/javascript"></script>
+		<script src="/js/js.cookie.js" type="text/javascript"></script> 
+		<script src="/js/tag-it.min.js" type="text/javascript"></script>
+		<script src="/js/lobibox.min.js" type="text/javascript"></script>
+		<script src="/js/messageboxes.min.js" type="text/javascript"></script>
+		<script src="/js/notifications.min.js" type="text/javascript"></script>
+		<script src="/js/md5.js" type="text/javascript"></script>
+		<script src="/js/jquery.maxlength.js" type="text/javascript"></script>
+		<script src="/js/json2.js" type="text/javascript"></script>
+		<script src="/js/heartbeat.js" type="text/javascript"></script>
+		<script src="/js/quagga.min.js" type="text/javascript"></script>
+		<script src="js/vend-connector.js" type="text/javascript"></script>
+		<script src="js/dear-connector.js" type="text/javascript"></script>
+		<script src="js/playbill-connector.js" type="text/javascript"></script>
+		<script src="js/playbill_heartbeat_monitor.js" type="text/javascript"></script>
+		<script src="js/form.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+        <!-- Primary Page Layout
+        ========================= -->
+        <div id="sidenav" class="sidenav">
+        	<div id="sidenav-close" class="closebtn" >&times;</div>
+        	<nav id="navigation"></nav>
+		</div>
+		
+		<div id="content">
+		
+			<div class="section header">
+				<div class="row header-fixed twelve columns">
+					<div id="menu-trigger" class="menu-trigger">
+                        <svg viewBox="0 0 800 600">
+                            <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+                            <path d="M300,320 L540,320" id="middle"></path>
+                            <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                        </svg>
+                    </div>
+					<!-- Company Banner -->
+					<div class="banner"><a href="/tools" title="Tools"><img src="/images/banner-dark.png"></a></div>
+					
+				</div>
+			</div>
+			<!--
+			<div class="section logo">
+				<div class="row header">
+					
+					<div class="banner twelve columns"></div>
+				</div>
+			</div>
+			-->
+			
+			<div class="section form">
+				<div class="container">
+					<div class="row" id="form-row">
+						<div class="twelve columns center" id="form-content">
+							<!-- FORM content bootstrapped -->
+							<div id="form"></div>
+							<div class="row">
+								<table id="product-results" class="disabled responsive-table">
+									<thead>
+										<tr>
+											<th class="responsive-table-cell-align-left" data-header-mapping="sku">SKU</th>
+											<th class="responsive-table-cell-align-left" data-header-mapping="name" data-cell-type="a">Product</th>
+										  	<th class="responsive-table-cell-align-left" data-header-mapping="hierarchy_code">Family SKU</th>
+										  	<th class="responsive-table-cell-align-left" data-header-mapping="barcodes">Barcodes</th>
+										  	<th class="responsive-table-cell-align-center" data-header-mapping="country_code">Country</th>
+										  	<th class="responsive-table-cell-align-left" data-header-mapping="locations">Stock Locations</th>
+										</tr>
+									</thead>
+							  		<tbody></tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<footer>
+	</footer>
+	<!-- End Document
+	========================= -->
+</html>

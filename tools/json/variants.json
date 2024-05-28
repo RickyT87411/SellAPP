@@ -1,0 +1,75 @@
+{
+	"contents" :
+	{
+		"Playbill Pty Ltd" : {
+			 "Colour" 		: "Colour"
+			,"Edition"		: "Edition"
+			,"Finish"		: "Finish"
+			,"Location"		: "Location"
+			,"Match"		: "Match"
+			,"Material"		: "Material"
+			,"Misc"			: "Misc"
+			,"Pack"			: "Pack"
+			,"Player" 		: "Player"
+			,"Priority"		: "Priority"
+			,"Revision"		: "Revision"
+			,"Size" 		: "Size"
+			,"Style"		: "Style"
+			,"Weight"		: "Weight"
+			,"Year"			: "Year"
+
+		},
+		"Playbill NZ" : {
+			 "Colour" 		: "Colour"
+			,"Edition"		: "Edition"
+			,"Finish"		: "Finish"
+			,"Location"		: "Location"
+			,"Match"		: "Match"
+			,"Material"		: "Material"
+			,"Misc"			: "Misc"
+			,"Pack"			: "Pack"
+			,"Player" 		: "Player"
+			,"Priority"		: "Priority"
+			,"Revision"		: "Revision"
+			,"Size" 		: "Size"
+			,"Style"		: "Style"
+			,"Weight"		: "Weight"
+			,"Year"			: "Year"
+
+		},
+		"Platypus Productions LLC" : {
+			 "Colour" 		: "Colour"
+			,"Edition"		: "Edition"
+			,"Finish"		: "Finish"
+			,"Location"		: "Location"
+			,"Match"		: "Match"
+			,"Material"		: "Material"
+			,"Misc"			: "Misc"
+			,"Pack"			: "Pack"
+			,"Player" 		: "Player"
+			,"Priority"		: "Priority"
+			,"Revision"		: "Revision"
+			,"Size" 		: "Size"
+			,"Style"		: "Style"
+			,"Weight"		: "Weight"
+			,"Year"			: "Year"
+		},
+		"Playbill UK Ltd" : {
+			 "Colour" 		: "Colour"
+			,"Edition"		: "Edition"
+			,"Finish"		: "Finish"
+			,"Location"		: "Location"
+			,"Match"		: "Match"
+			,"Material"		: "Material"
+			,"Misc"			: "Misc"
+			,"Pack"			: "Pack"
+			,"Player" 		: "Player"
+			,"Priority"		: "Priority"
+			,"Revision"		: "Revision"
+			,"Size" 		: "Size"
+			,"Style"		: "Style"
+			,"Weight"		: "Weight"
+			,"Year"			: "Year"
+		}
+	}
+}

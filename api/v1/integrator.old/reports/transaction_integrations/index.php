@@ -1,0 +1,287 @@
+<?php
+require $_SERVER['DOCUMENT_ROOT'].'/include.php';
+require 'dbconfig.php';
+require 'validate.php';
+require 'mapping.php';
+
+define("_GET_TRANSACTION_INTEGRATIONS_PROC_PROD_", "integration_transaction_report_v5");
+define("_GET_TRANSACTION_INTEGRATIONS_PROC_DEV_", "integration_transaction_report_v5");
+
+/** PAGINATION **/
+define("_DEFAULT_PAGE_LIMIT_", 100);
+define("_MAX_PAGE_LIMIT_", 1000);
+/**/
+
+if (PHP_SAPI == 'cli-server') {
+    // To help the built-in PHP dev server, check if the request was actually for
+    // something which should probably be served as a static file
+    $url  = parse_url($_SERVER['REQUEST_URI']);
+    $file = __DIR__ . $url['path'];
+    if (is_file($file)) {
+        return false;
+    }
+}
+
+/**
+ * Import Dependencies and Instantiate
+ */
+
+require $_SERVER['DOCUMENT_ROOT']. '/api-vendor/autoload.php';
+
+session_start();
+
+// Instantiate the app
+$settings = require __DIR__ . '/src/settings.php';
+$app = new \Slim\App($settings);
+
+// Set up dependencies
+require __DIR__ . '/src/dependencies.php';
+
+// Register middleware
+require __DIR__ . '/src/middleware.php';
+
+
+require __DIR__ . '/src/APIRateLimit.php';
+
+/**
+ * Configure Middleware
+ */
+//$app->add(new \Slim\Extras\Middleware\HttpBasicAuth('dev-integrator', 'Zj|~YxiCqh!2'));
+
+$app->add(function ($request, $response, $next) {
+
+	$host 	= _HOST_URI_PROD_;
+	$dbname = _HOST_DB_PROD_;
+	$usr 	= _HOST_USER_PROD_;
+	$pwd 	= _HOST_PASSWORD_PROD_;
+
+    $requests = 100; // maximum number of requests
+    $inmins = 60;    // in how many time (minutes)
+
+    $APIRateLimit = new App\Utils\APIRateLimit($requests, $inmins,"mysql:host=$host;dbname=$dbname", $usr, $pwd);
+    $mustbethrottled = $APIRateLimit();
+
+    if ($mustbethrottled == false) {
+        $responsen = $next($request, $response);
+    } else {
+        $responsen = $response->withStatus(429)
+        				->withHeader('RateLimit-Limit', $requests);
+    }
+
+    return $responsen;
+});
+
+/**
+ * Routes
+ */
+ 
+// GET route
+$app->get(
+    '/',
+    function () use ($app) {	
+    }
+);
+ 
+// POST route
+$app->post(
+    '/',
+    function ($request, $response, $args) use ($app) {
+    	// Import field mapping
+    	global $_FIELD_MAPPING_;
+    	
+    	try {
+			// Validate input
+			$errs = validate($request->getBody());
+			$valid = empty($errs);
+		
+			// Return an array list of errors if invalid
+			if(!$valid) {
+				return 	$response->withStatus(400)
+							->withHeader("Content-Type","application/json")
+							->write(json_encode($errs));
+			}
+			
+			// Convert JSON data to array
+			$data = json_decode($request->getBody(), true);
+		
+			 // Set params
+			$devmode = $request->getParam("devmode") === true || strcmp($request->getParam("devmode"), "true") == 0 ? true : false;
+		
+			// DB Settings
+			$host 	= !$devmode ? _HOST_URI_PROD_ 		: _HOST_URI_DEV_;
+			$dbname = !$devmode ? _HOST_DB_PROD_ 		: _HOST_DB_DEV_;
+			$usr 	= !$devmode ? _HOST_USER_PROD_ 		: _HOST_USER_DEV_;
+			$pwd 	= !$devmode ? _HOST_PASSWORD_PROD_ 	: _HOST_PASSWORD_DEV_;
+
+			$proc 	= !$devmode ? _GET_TRANSACTION_INTEGRATIONS_PROC_PROD_ : _GET_TRANSACTION_INTEGRATIONS_PROC_DEV_;
+        	
+        	/** PAGINATION **/
+        	$page = $request->getParam("page") ? $request->getParam("page") : 1;
+			$page = !is_numeric($page) ? 1 : $page;
+			$page = $page <= 0 ? 1 : $page;
+			
+			$limit = $request->getParam("limit") ? $request->getParam("limit") : _DEFAULT_PAGE_LIMIT_;
+			$limit = !is_numeric($limit) ? _DEFAULT_PAGE_LIMIT_ : $limit;
+			$limit = $limit <= 0 ? _DEFAULT_PAGE_LIMIT_ : $limit > _MAX_PAGE_LIMIT_ ? _MAX_PAGE_LIMIT_ : $limit;
+        	/****/
+        	
+        	$results = array(
+				"pagination" => array(
+					 "total_records" => 0
+					,"total_pages" => 0
+					,"page_records" => 0
+					,"page" => $page*1
+					,"limit" => $limit*1
+				),
+				"records" => array()
+			);
+        
+			$conn = new PDO("mysql:host=$host;dbname=$dbname", $usr, $pwd);
+			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			// Execute the stored procedure
+			$stmt = $conn->prepare(
+				"CALL $proc(".
+					 ":_transaction_date_from".
+					",:_transaction_date_to".
+					",:_transaction_created_from".
+					",:_transaction_created_to".
+					",:_transaction_updated_from".
+					",:_transaction_updated_to".
+					",:_process_transaction_date_csv".
+					",:_process_source_transaction_host_csv".
+					",:_process_source_transaction_host_instance_csv".
+					",:_process_source_transaction_type_csv".
+					",:_process_source_transaction_id_csv".
+					",:_process_source_transaction_title_csv".
+					",:_process_source_transaction_status_csv".
+					",:_process_source_location_type_csv".
+					",:_process_source_location_csv".
+					",:_process_target_transaction_host_csv".
+					",:_process_target_transaction_host_instance_csv".
+					",:_process_target_transaction_type_csv".
+					",:_process_target_transaction_id_csv".
+					",:_process_target_transaction_title_csv".
+					",:_process_target_transaction_status_csv".
+					",:_process_target_location_type_csv".
+					",:_process_target_location_csv".
+					",:_ignore_transaction_date_csv".
+					",:_ignore_source_transaction_host_csv".
+					",:_ignore_source_transaction_host_instance_csv".
+					",:_ignore_source_transaction_type_csv".
+					",:_ignore_source_transaction_id_csv".
+					",:_ignore_source_transaction_title_csv".
+					",:_ignore_source_transaction_status_csv".
+					",:_ignore_source_location_type_csv".
+					",:_ignore_source_location_csv".
+					",:_ignore_target_transaction_host_csv".
+					",:_ignore_target_transaction_host_instance_csv".
+					",:_ignore_target_transaction_type_csv".
+					",:_ignore_target_transaction_id_csv".
+					",:_ignore_target_transaction_title_csv".
+					",:_ignore_target_transaction_status_csv".
+					",:_ignore_target_location_type_csv".
+					",:_ignore_target_location_csv".
+					",:_integration_atomic_by_day".
+					",:_integration_status_outstanding".
+					",:_integration_retry_partials".
+					",:__limit".
+					",:__page".
+					",@total_records".
+				");"
+			);
+			$stmt->bindParam(":_transaction_date_from",					 		$data[$_FIELD_MAPPING_["_transaction_date_from"]]);
+			$stmt->bindParam(":_transaction_date_to",					 		$data[$_FIELD_MAPPING_["_transaction_date_to"]]);
+			$stmt->bindParam(":_transaction_created_from",					 	$data[$_FIELD_MAPPING_["_transaction_created_from"]]);
+			$stmt->bindParam(":_transaction_created_to",					 	$data[$_FIELD_MAPPING_["_transaction_created_to"]]);
+			$stmt->bindParam(":_transaction_updated_from",					 	$data[$_FIELD_MAPPING_["_transaction_updated_from"]]);
+			$stmt->bindParam(":_transaction_updated_to",					 	$data[$_FIELD_MAPPING_["_transaction_updated_to"]]);
+			$stmt->bindParam(":_process_transaction_date_csv",					$data[$_FIELD_MAPPING_["_process_transaction_date_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_host_csv",			$data[$_FIELD_MAPPING_["_process_source_transaction_host_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_host_instance_csv",	$data[$_FIELD_MAPPING_["_process_source_transaction_host_instance_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_type_csv",			$data[$_FIELD_MAPPING_["_process_source_transaction_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_id_csv",				$data[$_FIELD_MAPPING_["_process_source_transaction_id_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_title_csv",			$data[$_FIELD_MAPPING_["_process_source_transaction_title_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_transaction_status_csv",			$data[$_FIELD_MAPPING_["_process_source_transaction_status_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_location_type_csv",				$data[$_FIELD_MAPPING_["_process_source_location_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_source_location_csv",					$data[$_FIELD_MAPPING_["_process_source_location_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_host_csv",			$data[$_FIELD_MAPPING_["_process_target_transaction_host_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_host_instance_csv",	$data[$_FIELD_MAPPING_["_process_target_transaction_host_instance_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_type_csv",			$data[$_FIELD_MAPPING_["_process_target_transaction_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_id_csv",				$data[$_FIELD_MAPPING_["_process_target_transaction_id_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_title_csv",			$data[$_FIELD_MAPPING_["_process_target_transaction_title_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_transaction_status_csv",			$data[$_FIELD_MAPPING_["_process_target_transaction_status_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_location_type_csv",				$data[$_FIELD_MAPPING_["_process_target_location_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_process_target_location_csv",					$data[$_FIELD_MAPPING_["_process_target_location_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_transaction_date_csv",					$data[$_FIELD_MAPPING_["_ignore_transaction_date_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_host_csv",			$data[$_FIELD_MAPPING_["_ignore_source_transaction_host_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_host_instance_csv",	$data[$_FIELD_MAPPING_["_ignore_source_transaction_host_instance_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_type_csv",			$data[$_FIELD_MAPPING_["_ignore_source_transaction_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_id_csv",				$data[$_FIELD_MAPPING_["_ignore_source_transaction_id_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_title_csv",			$data[$_FIELD_MAPPING_["_ignore_source_transaction_title_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_transaction_status_csv",			$data[$_FIELD_MAPPING_["_ignore_source_transaction_status_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_location_type_csv",				$data[$_FIELD_MAPPING_["_ignore_source_location_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_source_location_csv",					$data[$_FIELD_MAPPING_["_ignore_source_location_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_host_csv",			$data[$_FIELD_MAPPING_["_ignore_target_transaction_host_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_host_instance_csv",	$data[$_FIELD_MAPPING_["_ignore_target_transaction_host_instance_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_type_csv",			$data[$_FIELD_MAPPING_["_ignore_target_transaction_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_id_csv",				$data[$_FIELD_MAPPING_["_ignore_target_transaction_id_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_title_csv",			$data[$_FIELD_MAPPING_["_ignore_target_transaction_title_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_transaction_status_csv",			$data[$_FIELD_MAPPING_["_ignore_target_transaction_status_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_location_type_csv",				$data[$_FIELD_MAPPING_["_ignore_target_location_type_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_ignore_target_location_csv",					$data[$_FIELD_MAPPING_["_ignore_target_location_csv"]],PDO::PARAM_STR);
+			$stmt->bindParam(":_integration_atomic_by_day",						$data[$_FIELD_MAPPING_["_integration_atomic_by_day"]],PDO::PARAM_BOOL);
+			$stmt->bindParam(":_integration_status_outstanding",				$data[$_FIELD_MAPPING_["_integration_status_outstanding"]],PDO::PARAM_INT);
+			$stmt->bindParam(":_integration_retry_partials",					$data[$_FIELD_MAPPING_["_integration_retry_partials"]],PDO::PARAM_BOOL);
+			$stmt->bindParam(":__limit", $limit);
+			$stmt->bindParam(":__page", $page);
+			$stmt->execute();
+			
+			// Parse record set
+			while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+				// Append record
+				$results["records"][] = $row;
+			}
+			
+			$stmt->closeCursor();
+			
+			/** PAGINATION **/
+			// Capture output parameter
+			$q = $conn->query("select @total_records as total_records;")->fetch(PDO::FETCH_ASSOC);
+			$total_records = $q && array_key_exists("total_records", $q) ? $q["total_records"] : 1;
+			$results["pagination"]["page_records"] = count($results["records"]);
+			$results["pagination"]["total_records"] = $total_records * 1;
+			$results["pagination"]["total_pages"] = ceil($total_records / $limit);
+			/**/
+			
+			// Close connection
+			$conn = null;
+			
+			// Return input body as results to confirm success
+			return 	$response->withStatus(200)
+						->withHeader("Content-Type","application/json")
+						->write(json_encode($results));
+		
+		} catch (PDOException $e) {
+			return 	$response->withStatus(500)
+						->withHeader("Content-Type","application/json")
+						->write(json_encode(array(
+							"ErrorCode"	=>	500,
+							"Exception"	=>	$e->getMessage()
+						)));
+		}
+        
+    }
+);
+
+// PUT route
+$app->put(
+    '/',
+    function () {
+    }
+);
+
+/**
+ * Run the Slim application
+ */
+$app->run();
+

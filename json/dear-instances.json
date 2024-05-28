@@ -1,0 +1,76 @@
+{
+	"contents" : {
+		"playbill" : {
+			"headers" : {
+				 "api-auth-accountid" 		: "3690ecc8-db52-496d-b9e8-d81d3c602f68"
+				,"api-auth-applicationkey" 	: "815b312a-88b5-256c-44f3-4223a66ac214"
+				,"Accept"					: "application/json"
+				,"Content-Type"				: "application/json"
+			},
+			"endpoints" : {
+				 "ProductBrands"			: "https://inventory.dearsystems.com/DearApi/ProductBrands"
+				,"ProductCategories"		: "https://inventory.dearsystems.com/DearApi/ProductCategories/"
+				,"ChartOfAccounts"			: "https://inventory.dearsystems.com/DearApi/ChartOfAccounts/"
+				,"TaxationRules"			: "https://inventory.dearsystems.com/DearApi/TaxationRules/"
+				,"ProductFamilies"			: "https://inventory.dearsystems.com/DearApi/ProductFamilies/"
+				,"Products"					: "https://inventory.dearsystems.com/DearApi/Products/"
+				,"ProductAvailability"		: "https://inventory.dearsystems.com/DearApi/ProductAvailability/"
+				,"Locations"				: "https://inventory.dearsystems.com/DearApi/Locations/"
+			}
+		},
+		"playbillnz" : {
+			"headers" : {
+				 "api-auth-accountid" 		: "0914e842-a1e3-4eba-9e12-addc2f6b6c3d"
+				,"api-auth-applicationkey" 	: "62e9437e-c870-2b63-a682-e24f86540f45"
+				,"Accept"					: "application/json"
+				,"Content-Type"				: "application/json"
+			},
+			"endpoints" : {
+				 "ProductBrands"			: "https://inventory.dearsystems.com/DearApi/ProductBrands"
+				,"ProductCategories"		: "https://inventory.dearsystems.com/DearApi/ProductCategories/"
+				,"ChartOfAccounts"			: "https://inventory.dearsystems.com/DearApi/ChartOfAccounts/"
+				,"TaxationRules"			: "https://inventory.dearsystems.com/DearApi/TaxationRules/"
+				,"ProductFamilies"			: "https://inventory.dearsystems.com/DearApi/ProductFamilies/"
+				,"Products"					: "https://inventory.dearsystems.com/DearApi/Products/"
+				,"ProductAvailability"		: "https://inventory.dearsystems.com/DearApi/ProductAvailability/"
+				,"Locations"				: "https://inventory.dearsystems.com/DearApi/Locations/"
+			}
+		},
+		"platypusproductions" : {
+			"headers" : {
+				 "api-auth-accountid" 		: "4425b9f2-0a73-4031-9ae8-a7bef4afbdb1"
+				,"api-auth-applicationkey" 	: "1c87767b-faa0-d02e-9cf7-db16194d37c6"
+				,"Accept"					: "application/json"
+				,"Content-Type"				: "application/json"
+			},
+			"endpoints" : {
+				 "ProductBrands"			: "https://inventory.dearsystems.com/DearApi/ProductBrands"
+				,"ProductCategories"		: "https://inventory.dearsystems.com/DearApi/ProductCategories/"
+				,"ChartOfAccounts"			: "https://inventory.dearsystems.com/DearApi/ChartOfAccounts/"
+				,"TaxationRules"			: "https://inventory.dearsystems.com/DearApi/TaxationRules/"
+				,"ProductFamilies"			: "https://inventory.dearsystems.com/DearApi/ProductFamilies/"
+				,"Products"					: "https://inventory.dearsystems.com/DearApi/Products/"
+				,"ProductAvailability"		: "https://inventory.dearsystems.com/DearApi/ProductAvailability/"
+				,"Locations"				: "https://inventory.dearsystems.com/DearApi/Locations/"
+			}
+		},
+		"playbilluk" : {
+			"headers" : {
+				 "api-auth-accountid" 		: "7d5aa275-8405-436e-a134-68ca34eba438"
+				,"api-auth-applicationkey" 	: "3a625b2d-9ea5-130d-bccf-59ffb617b6d4"
+				,"Accept"					: "application/json"
+				,"Content-Type"				: "application/json"
+			},
+			"endpoints" : {
+				 "ProductBrands"			: "https://inventory.dearsystems.com/DearApi/ProductBrands"
+				,"ProductCategories"		: "https://inventory.dearsystems.com/DearApi/ProductCategories/"
+				,"ChartOfAccounts"			: "https://inventory.dearsystems.com/DearApi/ChartOfAccounts/"
+				,"TaxationRules"			: "https://inventory.dearsystems.com/DearApi/TaxationRules/"
+				,"ProductFamilies"			: "https://inventory.dearsystems.com/DearApi/ProductFamilies/"
+				,"Products"					: "https://inventory.dearsystems.com/DearApi/Products/"
+				,"ProductAvailability"		: "https://inventory.dearsystems.com/DearApi/ProductAvailability/"
+				,"Locations"				: "https://inventory.dearsystems.com/DearApi/Locations/"
+			}
+		},
+	}
+}

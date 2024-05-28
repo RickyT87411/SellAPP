@@ -1,0 +1,118 @@
+.lobibox-body { 
+	background-color: #fefefe !important;
+	border-color: #fefefe !important;
+}
+.lobibox-footer {
+	background-color: #fefefe !important;
+	border-color: #fefefe !important;
+}
+
+
+/*
+ *
+ ** CUSTOM Lobibox $Confirm CSS
+ *
+ */
+ 
+ /** 
+  ** Re-styling the default light boxes 
+  **/
+.lobibox-confirm .lobibox-header {
+	background-color: #428bca !important;
+	border-color: #357ebd !important;
+}
+
+.lobibox-confirm .lobibox-body .lobibox-icon-wrapper .lobibox-icon {
+	color: #444444;
+}
+
+.lobibox-progress .lobibox-header {
+	background-color: #428bca !important;
+	border-color: #357ebd !important;
+}
+
+.lobibox-progress .lobibox-body .lobibox-icon-wrapper .lobibox-icon {
+	color: #444444;
+}
+
+.lobibox-success .lobibox-header {
+	background-color: #62bf8d !important;
+	border-color: #357ebd !important;
+}
+
+.lobibox-success .lobibox-body .lobibox-icon-wrapper .lobibox-icon {
+	color: #444444;
+}
+
+.lobibox-error .lobibox-header {
+	background-color: #FF6B6B !important;
+	border-color: #357ebd !important;
+}
+
+.lobibox-error .lobibox-body .lobibox-icon-wrapper .lobibox-icon {
+	color: #444444;
+}
+
+/** 
+ ** Re-styling the default 'CONFIRM' buttons
+ **/
+.lobibox-btn {
+	color: #fefefe !important;
+
+	width: 25%;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+.lobibox-confirm .lobibox-btn {
+	background-color: #428bca !important;
+	border-color: #357ebd !important;
+}
+.lobibox-success .lobibox-btn {
+	background-color: #62bf8d !important;
+	border-color: #62bf8d !important;
+}
+
+
+.lobibox-btn-yes:hover {
+	background-color: #62bf8d !important;
+	border-color: #62bf8d !important;
+}
+
+.lobibox-btn-no:hover {
+	background-color: #FF6B6B !important;
+	border-color: #FF6B6B !important;
+}
+
+/** 
+ ** Responsive scaling
+ **/
+ 
+.lobibox-confirm { width: 100%; }
+.lobibox-progress { width: 100%; }
+.lobibox-success { width: 100%; }
+.lobibox-error { width: 100%; }
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.lobibox-confirm { width: 75%; }
+	.lobibox-progress { width: 75%; }
+	.lobibox-success { width: 75%; }
+	.lobibox-error { width: 75%; }
+	.lobibox-btn { width: 15%; }
+}
+
+/* Between tablet and desktop */
+@media (min-width: 900px) {
+	.lobibox-confirm { width: 50%; }
+	.lobibox-progress { width: 50%; }
+	.lobibox-success { width: 50%; }
+	.lobibox-error { width: 50%; }
+}
+
+/* Larger than tablet */
+@media (min-width: 1200px) {
+	.lobibox-confirm { width: 35%; }
+	.lobibox-progress { width: 35%; }
+	.lobibox-success { width: 35%; }
+	.lobibox-error { width: 35%; }
+}

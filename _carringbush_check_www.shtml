@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<!--
+
+  File:
+	_carringbush_check_www.shtml
+
+  Purpose:
+	This file is used to test web wite functions
+
+		PLEASE DO NOT DELETE
+
+  History:
+	2008-03-10	Production version 1.1
+	2001-02-18	Development version 1.0
+
+-->
+
+<!--#set var="FILE_NAME" value ="_carringbush_check_www.shtml" -->
+ <head>
+  <title><!--#echo var="FILE_NAME"--></title>
+ </head>
+ <body>
+START_TEST_OUTPUT
+^^^
+ECHO_RESULT=<!--#echo var="FILE_NAME"-->
+EXEC_RESULT=<!--#exec cgi="/cgi-bin/_carringbush_check_www.pl"-->
+^^^
+END_TEST_OUTPUT
+ </body>
+</html>

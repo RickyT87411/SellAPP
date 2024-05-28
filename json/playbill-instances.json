@@ -1,0 +1,32 @@
+{
+	"contents" : {
+		"dev" : {
+			"headers" : {
+				 "Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+				,"Authorization"	: "Token ZjYwM2E4ZjItMmIyZC0xMWU4LWI0NjctMGVkNWY4OWY3MThi"
+			},
+			"endpoints" : {
+				 "placeholder_barcode"			: "https://{0}.playbill.com.au/api/v1/tools/product-setup/placeholder_barcode"
+				,"product_family_sku"			: "https://{0}.playbill.com.au/api/v1/tools/product-setup/product_family_sku"
+				,"product_lookup"				: "https://{0}.playbill.com.au/api/v1/tools/product_lookup/"
+				,"product_soh_lookup"			: "https://{0}.playbill.com.au/api/v1/tools/product_soh_lookup/"
+				,"product_family_lookup"		: "https://{0}.playbill.com.au/api/v1/tools/product_family_search/"
+			}
+		},
+		"prod" : {
+			"headers" : {
+				 "Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+				,"Authorization"	: "Token ZjYwM2E4ZjItMmIyZC0xMWU4LWI0NjctMGVkNWY4OWY3MThi"
+			},
+			"endpoints" : {
+				 "placeholder_barcode"			: "https://{0}.playbill.com.au/api/v1/tools/product-setup/placeholder_barcode"
+				,"product_family_sku"			: "https://{0}.playbill.com.au/api/v1/tools/product-setup/product_family_sku"
+				,"product_lookup"				: "https://{0}.playbill.com.au/api/v1/tools/product_lookup/"
+				,"product_soh_lookup"			: "https://{0}.playbill.com.au/api/v1/tools/product_soh_lookup/"
+				,"product_family_lookup"		: "https://{0}.playbill.com.au/api/v1/tools/product_family_search/"
+			}
+		}
+	}
+}

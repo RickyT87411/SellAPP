@@ -1,0 +1,280 @@
+{
+	"metadata": [{
+		"name": "approved",
+		"label": "APPROVED",
+		"datatype": "boolean",
+		"editable": true
+	},
+	{
+		"name": "document",
+		"label": "DOCUMENT",
+		"datatype": "string",
+		"editable": false
+	},
+	{
+		"name": "company",
+		"label": "COMPANY",
+		"datatype": "string",
+		"editable": false
+	},
+	{
+		"name": "style_code",
+		"label": "STYLE CODE",
+		"datatype": "string",
+		"editable": false
+	},
+	{
+		"name": "colour",
+		"label": "COLOUR",
+		"datatype": "string",
+		"editable": false
+	},
+	{
+		"name": "currency",
+		"label": "CURRENCY",
+		"datatype": "string",
+		"editable": true
+	},
+	{
+		"name": "price",
+		"label": "PRICE",
+		"datatype": "double",
+		"editable": true
+	},
+	{
+		"name": "start_date",
+		"label": "STARTS AT",
+		"datatype": "datetime",
+		"editable": true
+	},
+	{
+		"name": "end_date",
+		"label": "ENDS AT",
+		"datatype": "string",
+		"editable": true
+	}],
+	"data": [{
+		"id": "103908",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00077355",
+			"colour": "Black",
+			"currency": "AUD",
+			"price": "9.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103973",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00077355",
+			"colour": "White",
+			"currency": "AUD",
+			"price": "9.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104005",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00086770",
+			"colour": "Red",
+			"currency": "AUD",
+			"price": "14.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104020",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00086770",
+			"colour": "Stone",
+			"currency": "AUD",
+			"price": "14.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104059",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00077306",
+			"colour": "Black",
+			"currency": "AUD",
+			"price": "9.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104107",
+		"values": {
+			"approved": "0",
+			"document": "012686",
+			"company": "Crossroads",
+			"style_code": "00086377",
+			"colour": "Tribal Print",
+			"currency": "AUD",
+			"price": "19.95",
+			"start_date": "2013-12-16 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103913",
+		"values": {
+			"approved": "0",
+			"document": "012696",
+			"company": "Crossroads",
+			"style_code": "00086377",
+			"colour": "Tribal Print",
+			"currency": "AUD",
+			"price": "14.95",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103975",
+		"values": {
+			"approved": "0",
+			"document": "012696",
+			"company": "Crossroads",
+			"style_code": "00086770",
+			"colour": "Red",
+			"currency": "AUD",
+			"price": "9.95",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104038",
+		"values": {
+			"approved": "0",
+			"document": "012696",
+			"company": "Crossroads",
+			"style_code": "00086770",
+			"colour": "Stone",
+			"currency": "AUD",
+			"price": "9.95",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103914",
+		"values": {
+			"approved": "0",
+			"document": "012697",
+			"company": "Crossroads",
+			"style_code": "00078770",
+			"colour": "Apricot",
+			"currency": "AUD",
+			"price": "5.00",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103930",
+		"values": {
+			"approved": "0",
+			"document": "012697",
+			"company": "Crossroads",
+			"style_code": "00078770",
+			"colour": "Emerald",
+			"currency": "AUD",
+			"price": "5.00",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103969",
+		"values": {
+			"approved": "0",
+			"document": "012697",
+			"company": "Crossroads",
+			"style_code": "00078772",
+			"colour": "Tie Dye Print",
+			"currency": "AUD",
+			"price": "5.00",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "104014",
+		"values": {
+			"approved": "0",
+			"document": "012697",
+			"company": "Crossroads",
+			"style_code": "00078772",
+			"colour": "Zebra Abstract Print",
+			"currency": "AUD",
+			"price": "5.00",
+			"start_date": "2013-12-24 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103900",
+		"values": {
+			"approved": "0",
+			"document": "013107",
+			"company": "Crossroads",
+			"style_code": "00083177",
+			"colour": "Mint Ombre",
+			"currency": "NZD",
+			"price": "24.99",
+			"start_date": "2014-01-22 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103902",
+		"values": {
+			"approved": "0",
+			"document": "013109",
+			"company": "Crossroads",
+			"style_code": "00086773",
+			"colour": "White Bird",
+			"currency": "NZD",
+			"price": "34.99",
+			"start_date": "2014-01-22 00:00:00.0",
+			"end_date": []
+		}
+	},
+	{
+		"id": "103904",
+		"values": {
+			"approved": "0",
+			"document": "013183",
+			"company": "Crossroads",
+			"style_code": "00074776",
+			"colour": "Black",
+			"currency": "AUD",
+			"price": "29.95",
+			"start_date": "2015-05-08 00:00:00.0",
+			"end_date": []
+		}
+	}]
+}

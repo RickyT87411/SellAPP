@@ -1,0 +1,40 @@
+td.number {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+td.number.nan {
+	font-weight: normal;
+	color: #AAA;
+}
+
+th.number {
+	text-align: right;
+}
+
+td.boolean {
+	text-align: center;
+}
+
+th.boolean {
+	text-align: center;
+}
+
+td.editablegrid-editting textarea.editablegrid-valid {
+	border: 2px solid #DFF2BF;
+}
+td.editablegrid-editting textarea.editablegrid-invalid {
+	border: 2px solid #FFBABA;
+}
+
+textarea.invalid {
+	background-color: #FFBABA;
+	color: #D8000C;
+}
+
+input.invalid {
+	background-color: #FFBABA;
+	color: #D8000C;
+}

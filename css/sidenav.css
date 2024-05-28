@@ -1,0 +1,86 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* General styling */
+.sidenav ul { 
+	padding-left: 12px;
+}
+.sidenav li { 
+	list-style-type: none;
+}
+
+.sidenav h1,
+.sidenav h2,
+.sidenav h3,
+.sidenav h4,
+.sidenav h5,
+.sidenav h6,
+.sidenav h7,
+.sidenav h8 {
+	margin-top: 10px;
+	color: #FF6B6B;
+	
+}
+
+.sidenav a,
+.sidenav p {
+	color: #FFF;
+}
+
+/* when used with a slide-icon then adjust the icon color */
+.sidenav .slide-icon {
+	color: #1EAEDB;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn:hover {
+	cursor: pointer;
+}
+.closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px !important;
+	margin-left: 50px;
+	color: #FF6B6B;
+}
+@media (min-width: 550px) {
+	.closebtn { visibility: hidden; }
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

@@ -1,0 +1,32 @@
+{
+	"contents" : {
+		"playbill" : {
+			"headers" : {
+				 "Authorization" 	: "Bearer 2Bqb1zG2KckwX2KudxR0P2:7rV8m36GfDKbc7JVy"
+				,"Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+				 "products"			: "https://playbill.vendhq.com/api/products/"
+				,"register_sales"	: "https://playbill.vendhq.com/api/register_sales/"
+				,"registers"		: "https://playbill.vendhq.com/api/registers/"
+				,"outlets"			: "https://playbill.vendhq.com/api/outlets/"
+				,"customers"		: "https://playbill.vendhq.com/api/customers/"
+			}
+		},
+		"playbillnz" : {
+			"headers" : {
+				 "Authorization" 	: "Bearer 5OtjwgBqfHJZgreSOZGhV:XX3WZPMnsdabLBDXPR"
+				,"Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+				 "products"			: "https://playbillnz.vendhq.com/api/products/"
+				,"register_sales"	: "https://playbillnz.vendhq.com/api/register_sales/"
+				,"registers"		: "https://playbillnz.vendhq.com/api/registers/"
+				,"outlets"			: "https://playbillnz.vendhq.com/api/outlets/"
+				,"customers"		: "https://playbillnz.vendhq.com/api/customers/"
+			}
+		}
+	}
+}

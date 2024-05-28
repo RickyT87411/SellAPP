@@ -1,0 +1,208 @@
+{
+	"contents" : {
+		"playbill" : {
+			"headers" : {
+				 "X-Auth-Client" 	: "5h3cyall49d0pfuagl45lc5hwnmdl6t"
+				,"X-Auth-Token" 	: "eldqn02hbf4xdw72y6ddmue3s3dyldk"
+				,"Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "PLaybill"
+		},
+		"playbillnz" : {
+			"headers" : {
+				 "X-Auth-Client" 	: ""
+				,"X-Auth-Token" 	: ""
+				,"Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Playbill NZ"
+		},
+		"warriors" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+				,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+				,"Content-Type"		: "application/json"
+				,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Warriors ALB"
+		},
+		"playbilluk" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Playbill UK"
+		},
+		"platypusproductions" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Platypus Productions"
+		},
+		"mcgshop" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "MCG Shop"
+		},
+		"nzwarriors" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "NZ Warriors"
+		},
+		"waratahs" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Waratahs"
+		},
+		"sydneyroosters" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Sydney Roosters"
+		},
+		"sydneyfc" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Sydney FC"
+		},
+		"melbournestorm" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Melbourne Storm"
+		},
+		"manlyseaeagles" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Manly Sea Eagles"
+		},
+		"parramattaeels" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Parramatta Eels"
+		},
+		"sydneyswans" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Sydney Swans"
+		},
+		"collingwoodfc" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Collingwood Magpies"
+		},
+		"essendonfc" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Essendon Bombers"
+		},
+		"hawthornhawks" : {
+			"headers" : {
+				"X-Auth-Client" 	: "dk2nczj0ruwq7e5vsi7umozhbfku2zi"
+			,"X-Auth-Token" 	: "loy5zdhl5y342n8mfritkzac1fe9rf4"
+			,"Content-Type"		: "application/json"
+			,"Accept"			: "application/json"
+			},
+			"endpoints" : {
+
+			},
+			"brand" : "Hawthorn Hawks"
+		}
+	}
+}

@@ -1,0 +1,96 @@
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+/*----- settings Outline -----*/
+.settings-wrap {
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.settings {
+    margin:0px auto;
+}
+
+.settings ul {
+	margin: 0;
+	padding: 0;
+}
+ 
+.settings li {
+    margin:0px;
+    list-style:none;
+    width: 100%;
+}
+ 
+.settings a {
+	text-decoration:none;
+    transition:all linear 0.15s;
+    color:#be5b70;
+}
+ 
+.settings li:hover > a, .settings .current-item > a {
+    text-decoration:none;
+    color:#FF6B6B;
+}
+ 
+.settings .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.settings > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.settings > ul > li > a {
+    padding:10px 10px;
+    display:inline-block;
+    box-sizing: border-box;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.settings > ul > li:hover > a, .settings > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.settings li:hover .sub-settings {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-settings {
+    margin: 0;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+    width: 100%;
+}
+ 
+.sub-settings li {
+    display:block;
+    font-size:16px;
+
+}
+ 
+.sub-settings li a {
+    padding:10px 10px;
+    box-sizing: border-box;
+    display:block;
+}
+ 
+.sub-settings li a:hover, .sub-settings .current-item a {
+    background:#3e3436;
+}

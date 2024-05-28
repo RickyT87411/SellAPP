@@ -1,0 +1,24 @@
+{
+	"contents" :
+	{
+		"Playbill Pty Ltd" : {
+			 "Sport" : "Sport"
+			,"Theatre" : "Theatre"
+			,"Popup" : "Popup"
+			,"Other" : "Other"
+		},
+		"Playbill NZ" : {
+			 "Sport" : "Sport"
+			,"Theatre" : "Theatre"
+			,"Popup" : "Popup"
+		},
+		"Platypus Productions LLC" : {
+			 "Theatre" : "Theatre"
+			 ,"Popup" : "Popup"
+		},
+		"Playbill UK Ltd" : {
+			 "Theatre" : "Theatre"
+			 ,"Popup" : "Popup"
+		}
+	}
+}

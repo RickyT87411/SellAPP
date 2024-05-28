@@ -1,0 +1,737 @@
+<form id="product-form">
+	<select class="disabled" name="inventory-instance" id="inventory-instance" style="width: 50%" required
+			data-name="Organisation" data-mapping-id="inventory-instance" data-tag="false" data-valid="" data-default="Playbill Pty Ltd">
+	</select>
+
+	<h3>New Product Form</h3>
+
+	<div class="row">
+		<!-- START HIDDEN FIELDS
+			 Used for mapping purposes, can be enabled for actual form input
+		-->
+		<div class="disabled" id="form-family-id"
+			 data-mapping-id="family-id" data-tag="false" data-valid="" data-default="">
+		</div>
+		<!-- END HIDDEN FIELDS -->
+
+		<div id="department-form" class="twelve columns">
+
+			<h5>Categorical Details</h5>
+			<label for="form-department">Department</label>
+			<div style="overflow: auto;">
+
+				<select name="department" id="form-department" style="width: 100%" required
+						data-name="Department" data-mapping-id="" data-tag="true" data-valid="" data-default="">
+					<option value='' disabled selected>No options</option>
+				</select>
+			</div>
+
+			<label for="form-category">Product Category</label>
+			<select name="category" id="form-category" style="width: 100%" required
+					data-name="Product Category" data-mapping-id="product-category" data-tag="false" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="mapping-form" class="twelve columns">
+
+			<div class="six columns float-left">
+				<h5>Product Brand Mapping</h5>
+
+                <label for="form-consignment">Consignment?</label>
+				<input name="form-consignment" id="form-consignment" style="width: 100%"
+						type="checkbox"
+						data-name="Consignment" data-mapping-id="consignment" data-tag="true" data-valid="true" data-default=""/>
+				
+
+				<label for="form-product-brand">Product Brand</label>
+				<select name="product-brand" id="form-product-brand" style="width: 100%" required
+						data-name="Product Brand" data-mapping-id="product-brand" data-tag="true" data-valid="" data-default="">
+					<option value='' disabled selected>No options</option>
+				</select>
+				<!--
+				<label for="form-product-consignment-brand" class="disabled">Consignment Brand</label>
+				<select name="product-consignment-brand" id="form-product-consignment-brand" class="disabled" style="width: 100%"
+						data-name="Consignment Brand" data-mapping-id="product-consignment-brand" data-tag="true" data-valid="" data-default=""/>
+					<option value='' disabled selected>No options</option>
+				</select>
+                
+				<label for="form-brand-aa-code">Finance Dimension</label>
+				<input name="brand-aa-code" id="form-brand-aa-code" type="text" placeholder="e.g. Sydney Swans, Matilda the Musical, etc."
+					   style="width: 100%" pattern="^[^\s]{1}[\S\w\s]{0,78}[^\s]{1}$|^[^\s]{1}$" disabled required
+					   data-name="Brand AA Code" data-mapping-id="brand-aa-code" data-tag="true" data-valid="" data-default=""/>
+				-->
+			</div>
+
+			<div class="six columns float-right">
+				<h5>Product Financial Mapping</h5>
+
+				<label for="form-finance-purchase-tax">Purchase Tax Rule</label>
+				<select name="finance-purchase-tax" id="form-finance-purchase-tax" style="width: 100%" required
+						data-name="Purchase Tax Rule" data-mapping-id="purchase-tax-rule" data-tag="false" data-valid="" data-default="GST on Non-Capital">
+					<option value='' disabled selected>No options</option>
+				</select>
+				<label for="form-finance-sale-tax">Sales Tax Rule</label>
+				<select name="finance-sale-tax" id="form-finance-sale-tax" style="width: 100%" required
+						data-name="Sales Tax Rule" data-mapping-id="sale-tax-rule" data-tag="false" data-valid="" data-default="GST on Income">
+					<option value='' disabled selected>No options</option>
+				</select>
+				<label for="form-finance-costing-method">Costing Method</label>
+				<select name="finance-costing-method" id="form-finance-costing-method" style="width: 100%" required
+						data-name="Costing Method" data-mapping-id="costing-method" data-tag="false" data-valid="" data-default="FIFO">
+					<option value='' 				selected>Select an option</option>
+					<option value='FIFO' 					>FIFO</option>
+					<option value='FIFO - Batch' 			>FIFO - Batch</option>
+					<option value='FIFO - Serial Number' 	>FIFO - Serial Number</option>
+					<option value='FEFO - Batch' 			>FEFO - Batch</option>
+					<option value='FEFO - Serial Number' 	>FEFO - Serial Number</option>
+					<option value='Special - Batch' 		>Special - Batch</option>
+					<option value='Special - Serial Number' >Special - Serial Number</option>
+				</select>
+			</div>
+
+			<!-- START HIDDEN FIELDS
+				 Used for mapping purposes, can be enabled for actual form input
+			-->
+			<select class="disabled" name="finance-inventory-account" id="form-finance-inventory-account"
+					data-name="Inventory Account" data-mapping-id="inventory-account" data-tag="false" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<select class="disabled" name="finance-cogs-account" id="form-finance-cogs-account"
+					data-name="COGS Account" data-mapping-id="cogs-account" data-tag="false" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<select class="disabled" name="finance-revenue-account" id="form-finance-revenue-account"
+					data-name="Revenue Account" data-mapping-id="revenue-account" data-tag="false" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<select class="disabled" name="finance-expense-account" id="form-finance-expense-account"
+					data-name="Expense Account" data-mapping-id="expense-account" data-tag="false" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<!-- END HIDDEN FIELDS -->
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="family-form" class="twelve columns">
+			<h5>Product Family Details</h5>
+
+			<div class="row">
+				<div class="six columns float-left">
+					<label for="form-family-name">Product Name <i>(Must be unique!)</i></label>
+					<input name="family-name" id="form-family-name" type="text" maxlength="256"
+						   placeholder="e.g. Swans 2016 Home Guernsey" style="width: 100%" required
+						   data-name="Product Name" data-mapping-id="family-name" data-tag="false" data-valid="" data-default=""/>
+				</div>
+
+				<div class="six columns float-right">
+					<label for="form-family-code" >Family SKU <i>(Generated)</i></label>
+					<input name="family-code" id="form-family-code" type="text" placeholder="" style="width: 100%"
+						   readonly required tabindex="-1"
+						   data-name="Product Code" data-mapping-id="family-code" data-tag="true" data-valid="" data-default=""/>
+				</div>
+			</div>
+
+			<div class="row" style="width: 100%">
+				<label for="form-family-description">Product Description</label>
+				<textarea name="family-description" id="form-family-description" class="boxsizing-border"
+						  data-name="Product Description" data-mapping-id="family-description" data-tag="false" data-valid="" data-default=""></textarea>
+			</div>
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div id="hierarchy-form" class="six columns float-left">
+
+			<h5 class="section">Product Hierarchy</h5>
+
+			<div class="row">
+				<div id="hierarchy-details-form" class="twelve columns">
+
+					<label for="form-tier-1">Class</label>
+					<select name="tier-1" id="form-tier-1" style="width: 100%" required
+							data-name="Hierarchy: Class" data-mapping-id="tier-1" data-tag="true" data-valid="" data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+
+					<label for="form-tier-2">Division</label>
+					<select name="tier-2" id="form-tier-2" style="width: 100%" required
+							data-name="Hierarchy: Sub-Category" data-mapping-id="tier-2" data-tag="true" data-valid="" data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+
+					<label for="form-tier-3">Sub-Category</label>
+					<select name="tier-3" id="form-tier-3" style="width: 100%"
+							data-name="Hierarchy: Class" data-mapping-id="tier-3" data-tag="true" data-valid="" data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+
+					<label for="form-tier-4">Material</label>
+					<select name="tier-4" id="form-tier-4" style="width: 100%"
+							data-name="Hierarchy: Material" data-mapping-id="tier-4" data-tag="true" data-valid="" data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+
+					<label for="form-tier-5">Special</label>
+					<select name="tier-5" id="form-tier-5" style="width: 100%"
+							data-name="Hierarchy: Special" data-mapping-id="tier-5" data-tag="true" data-valid="" data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+
+				</div>
+			</div>
+
+			<label for="form-misc-season">Year/Season</label>
+			<input name="misc-season" id="form-misc-season" type="text"
+				   placeholder="e.g. 2016, 2016/Summer, etc." style="width: 100%" disabled required
+				   data-name="Year/Season" data-mapping-id="season" data-tag="true" data-valid="" data-default=""/>
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+
+		<div id="pricing-form" class="six columns float-right">
+
+			<h5 class="section">Pricing</h5>
+
+			<label for="form-pricing-retail">Retail Price</label>
+			<input name="pricing-retail" id="form-pricing-retail" type="number" placeholder="0.00"
+				   style="width: 100%" disabled required
+				   data-name="Retail Price" data-mapping-id="pricing-retail" data-tag="false" data-valid="" data-default="0.00"/>
+
+			<label for="form-pricing-wholesale">Wholesale Price/Landed Price</label>
+			<input name="pricing-wholesale" id="form-pricing-wholesale" type="number"  placeholder="0.00"
+				   style="width: 100%" disabled required
+				   data-name="Wholesale Price/Landed Price" data-mapping-id="pricing-wholesale" data-tag="false" data-valid="" data-default="0.00"/>
+			<!-- START HIDDEN FIELDS
+				 Used for mapping purposes, can be enabled for actual form input
+			-->
+			<!-- <label for="form-pricing-discount">Discount%</label> -->
+			<div class="disabled" id="form-pricing-discount"
+				 data-name="Discount" data-mapping-id="" data-tag="true" data-valid="" data-default="">
+			</div>
+			<!-- END HIDDEN FIELDS -->
+
+			<!-- Spacer to align inputs -->
+			<label style="visibility: hidden;">.</label>
+
+			<h5 class="section" style="margin-bottom: 1.5rem; height: 38px;">Misc</h5>
+
+			<!--
+			<label for="form-misc-hs-code">HS Code</label>
+			<input name="misc-hs-code" id="form-misc-hs-code" type="text" placeholder="e.g. 5201"
+				   style="width: 100%" disabled
+				   data-name="HS Code" data-mapping-id="hs-code" data-tag="false" data-valid="" data-default=""/>
+			-->
+
+			<label for="form-misc-business-stream">Business Stream</label>
+			<select name="misc-business-stream" id="form-misc-business-stream" style="width: 100%" disabled required
+					data-name="Business Stream" data-mapping-id="business-stream" data-tag="true" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+			</select>
+
+			<label for="form-misc-saleability-date">Saleability Date</label>
+			<input name="misc-saleability-date" id="form-misc-saleability-date" type="text" placeholder=""
+				   style="width: 100%" class="datepicker-here" data-date-format="yyyy-mm-dd" data-language="en" disabled
+				  data-name="Saleability Date"  data-mapping-id="saleability-date" data-tag="false" data-valid="" data-default=""/>
+				  
+			<label for="form-misc-hs-code">HS Code</label>
+			<input name="misc-hs-code" id="form-misc-hs-code" type="text" placeholder=""
+				   style="width: 100%" data-language="en"
+				  data-name="HS Code"  data-mapping-id="hs-code" data-tag="false" data-valid="" data-default=""/>	  
+
+			<input name="misc-country-of-origin" id="form-misc-country-of-origin" type="hidden" placeholder=""
+				data-language="en" data-name="Country Of Origin"  data-mapping-id="country-of-origin" data-tag="false" data-valid="" data-default=""/>	  
+
+			<label for="form-sel-country-of-origin-code">Country of Origin</label>
+			<select name="sel-country-of-origin-code" id="form-sel-country-of-origin-code" style="width: 100%"
+				data-name="Country of Origin Code" data-mapping-id="country-of-origin-code" data-tag="true" data-valid="" data-default="">
+				<option value='' disabled selected>No options</option>
+				<option value="AF">Afghanistan</option>
+				<option value="AX">&Aring;land Islands</option>
+				<option value="AL">Albania</option>
+				<option value="DZ">Algeria</option>
+				<option value="AS">American Samoa</option>
+				<option value="AD">Andorra</option>
+				<option value="AO">Angola</option>
+				<option value="AI">Anguilla</option>
+				<option value="AQ">Antarctica</option>
+				<option value="AG">Antigua and Barbuda</option>
+				<option value="AR">Argentina</option>
+				<option value="AM">Armenia</option>
+				<option value="AW">Aruba</option>
+				<option value="AU">Australia</option>
+				<option value="AT">Austria</option>
+				<option value="AZ">Azerbaijan</option>
+				<option value="BS">Bahamas</option>
+				<option value="BH">Bahrain</option>
+				<option value="BD">Bangladesh</option>
+				<option value="BB">Barbados</option>
+				<option value="BY">Belarus</option>
+				<option value="BE">Belgium</option>
+				<option value="BZ">Belize</option>
+				<option value="BJ">Benin</option>
+				<option value="BM">Bermuda</option>
+				<option value="BT">Bhutan</option>
+				<option value="BO">Bolivia, Plurinational State of</option>
+				<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+				<option value="BA">Bosnia and Herzegovina</option>
+				<option value="BW">Botswana</option>
+				<option value="BV">Bouvet Island</option>
+				<option value="BR">Brazil</option>
+				<option value="IO">British Indian Ocean Territory</option>
+				<option value="BN">Brunei Darussalam</option>
+				<option value="BG">Bulgaria</option>
+				<option value="BF">Burkina Faso</option>
+				<option value="BI">Burundi</option>
+				<option value="KH">Cambodia</option>
+				<option value="CM">Cameroon</option>
+				<option value="CA">Canada</option>
+				<option value="CV">Cape Verde</option>
+				<option value="KY">Cayman Islands</option>
+				<option value="CF">Central African Republic</option>
+				<option value="TD">Chad</option>
+				<option value="CL">Chile</option>
+				<option value="CN">China</option>
+				<option value="CX">Christmas Island</option>
+				<option value="CC">Cocos (Keeling) Islands</option>
+				<option value="CO">Colombia</option>
+				<option value="KM">Comoros</option>
+				<option value="CG">Congo</option>
+				<option value="CD">Congo, the Democratic Republic of the</option>
+				<option value="CK">Cook Islands</option>
+				<option value="CR">Costa Rica</option>
+				<option value="CI">C&ocirc;te d'Ivoire</option>
+				<option value="HR">Croatia</option>
+				<option value="CU">Cuba</option>
+				<option value="CW">Cura&ccedil;ao</option>
+				<option value="CY">Cyprus</option>
+				<option value="CZ">Czech Republic</option>
+				<option value="DK">Denmark</option>
+				<option value="DJ">Djibouti</option>
+				<option value="DM">Dominica</option>
+				<option value="DO">Dominican Republic</option>
+				<option value="EC">Ecuador</option>
+				<option value="EG">Egypt</option>
+				<option value="SV">El Salvador</option>
+				<option value="GQ">Equatorial Guinea</option>
+				<option value="ER">Eritrea</option>
+				<option value="EE">Estonia</option>
+				<option value="ET">Ethiopia</option>
+				<option value="FK">Falkland Islands (Malvinas)</option>
+				<option value="FO">Faroe Islands</option>
+				<option value="FJ">Fiji</option>
+				<option value="FI">Finland</option>
+				<option value="FR">France</option>
+				<option value="GF">French Guiana</option>
+				<option value="PF">French Polynesia</option>
+				<option value="TF">French Southern Territories</option>
+				<option value="GA">Gabon</option>
+				<option value="GM">Gambia</option>
+				<option value="GE">Georgia</option>
+				<option value="DE">Germany</option>
+				<option value="GH">Ghana</option>
+				<option value="GI">Gibraltar</option>
+				<option value="GR">Greece</option>
+				<option value="GL">Greenland</option>
+				<option value="GD">Grenada</option>
+				<option value="GP">Guadeloupe</option>
+				<option value="GU">Guam</option>
+				<option value="GT">Guatemala</option>
+				<option value="GG">Guernsey</option>
+				<option value="GN">Guinea</option>
+				<option value="GW">Guinea-Bissau</option>
+				<option value="GY">Guyana</option>
+				<option value="HT">Haiti</option>
+				<option value="HM">Heard Island and McDonald Islands</option>
+				<option value="VA">Holy See (Vatican City State)</option>
+				<option value="HN">Honduras</option>
+				<option value="HK">Hong Kong</option>
+				<option value="HU">Hungary</option>
+				<option value="IS">Iceland</option>
+				<option value="IN">India</option>
+				<option value="ID">Indonesia</option>
+				<option value="IR">Iran, Islamic Republic of</option>
+				<option value="IQ">Iraq</option>
+				<option value="IE">Ireland</option>
+				<option value="IM">Isle of Man</option>
+				<option value="IL">Israel</option>
+				<option value="IT">Italy</option>
+				<option value="JM">Jamaica</option>
+				<option value="JP">Japan</option>
+				<option value="JE">Jersey</option>
+				<option value="JO">Jordan</option>
+				<option value="KZ">Kazakhstan</option>
+				<option value="KE">Kenya</option>
+				<option value="KI">Kiribati</option>
+				<option value="KP">Korea, Democratic People's Republic of</option>
+				<option value="KR">Korea, Republic of</option>
+				<option value="KW">Kuwait</option>
+				<option value="KG">Kyrgyzstan</option>
+				<option value="LA">Lao People's Democratic Republic</option>
+				<option value="LV">Latvia</option>
+				<option value="LB">Lebanon</option>
+				<option value="LS">Lesotho</option>
+				<option value="LR">Liberia</option>
+				<option value="LY">Libya</option>
+				<option value="LI">Liechtenstein</option>
+				<option value="LT">Lithuania</option>
+				<option value="LU">Luxembourg</option>
+				<option value="MO">Macao</option>
+				<option value="MK">Macedonia, the former Yugoslav Republic of</option>
+				<option value="MG">Madagascar</option>
+				<option value="MW">Malawi</option>
+				<option value="MY">Malaysia</option>
+				<option value="MV">Maldives</option>
+				<option value="ML">Mali</option>
+				<option value="MT">Malta</option>
+				<option value="MH">Marshall Islands</option>
+				<option value="MQ">Martinique</option>
+				<option value="MR">Mauritania</option>
+				<option value="MU">Mauritius</option>
+				<option value="YT">Mayotte</option>
+				<option value="MX">Mexico</option>
+				<option value="FM">Micronesia, Federated States of</option>
+				<option value="MD">Moldova, Republic of</option>
+				<option value="MC">Monaco</option>
+				<option value="MN">Mongolia</option>
+				<option value="ME">Montenegro</option>
+				<option value="MS">Montserrat</option>
+				<option value="MA">Morocco</option>
+				<option value="MZ">Mozambique</option>
+				<option value="MM">Myanmar</option>
+				<option value="NA">Namibia</option>
+				<option value="NR">Nauru</option>
+				<option value="NP">Nepal</option>
+				<option value="NL">Netherlands</option>
+				<option value="NC">New Caledonia</option>
+				<option value="NZ">New Zealand</option>
+				<option value="NI">Nicaragua</option>
+				<option value="NE">Niger</option>
+				<option value="NG">Nigeria</option>
+				<option value="NU">Niue</option>
+				<option value="NF">Norfolk Island</option>
+				<option value="MP">Northern Mariana Islands</option>
+				<option value="NO">Norway</option>
+				<option value="OM">Oman</option>
+				<option value="PK">Pakistan</option>
+				<option value="PW">Palau</option>
+				<option value="PS">Palestinian Territory, Occupied</option>
+				<option value="PA">Panama</option>
+				<option value="PG">Papua New Guinea</option>
+				<option value="PY">Paraguay</option>
+				<option value="PE">Peru</option>
+				<option value="PH">Philippines</option>
+				<option value="PN">Pitcairn</option>
+				<option value="PL">Poland</option>
+				<option value="PT">Portugal</option>
+				<option value="PR">Puerto Rico</option>
+				<option value="QA">Qatar</option>
+				<option value="RE">R&eacute;union</option>
+				<option value="RO">Romania</option>
+				<option value="RU">Russian Federation</option>
+				<option value="RW">Rwanda</option>
+				<option value="BL">Saint Barth&eacute;lemy</option>
+				<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+				<option value="KN">Saint Kitts and Nevis</option>
+				<option value="LC">Saint Lucia</option>
+				<option value="MF">Saint Martin (French part)</option>
+				<option value="PM">Saint Pierre and Miquelon</option>
+				<option value="VC">Saint Vincent and the Grenadines</option>
+				<option value="WS">Samoa</option>
+				<option value="SM">San Marino</option>
+				<option value="ST">Sao Tome and Principe</option>
+				<option value="SA">Saudi Arabia</option>
+				<option value="SN">Senegal</option>
+				<option value="RS">Serbia</option>
+				<option value="SC">Seychelles</option>
+				<option value="SL">Sierra Leone</option>
+				<option value="SG">Singapore</option>
+				<option value="SX">Sint Maarten (Dutch part)</option>
+				<option value="SK">Slovakia</option>
+				<option value="SI">Slovenia</option>
+				<option value="SB">Solomon Islands</option>
+				<option value="SO">Somalia</option>
+				<option value="ZA">South Africa</option>
+				<option value="GS">South Georgia and the South Sandwich Islands</option>
+				<option value="SS">South Sudan</option>
+				<option value="ES">Spain</option>
+				<option value="LK">Sri Lanka</option>
+				<option value="SD">Sudan</option>
+				<option value="SR">Suriname</option>
+				<option value="SJ">Svalbard and Jan Mayen</option>
+				<option value="SZ">Swaziland</option>
+				<option value="SE">Sweden</option>
+				<option value="CH">Switzerland</option>
+				<option value="SY">Syrian Arab Republic</option>
+				<option value="TW">Taiwan, Province of China</option>
+				<option value="TJ">Tajikistan</option>
+				<option value="TZ">Tanzania, United Republic of</option>
+				<option value="TH">Thailand</option>
+				<option value="TL">Timor-Leste</option>
+				<option value="TG">Togo</option>
+				<option value="TK">Tokelau</option>
+				<option value="TO">Tonga</option>
+				<option value="TT">Trinidad and Tobago</option>
+				<option value="TN">Tunisia</option>
+				<option value="TR">Turkey</option>
+				<option value="TM">Turkmenistan</option>
+				<option value="TC">Turks and Caicos Islands</option>
+				<option value="TV">Tuvalu</option>
+				<option value="UG">Uganda</option>
+				<option value="UA">Ukraine</option>
+				<option value="AE">United Arab Emirates</option>
+				<option value="GB">United Kingdom</option>
+				<option value="US">United States</option>
+				<option value="UM">United States Minor Outlying Islands</option>
+				<option value="UY">Uruguay</option>
+				<option value="UZ">Uzbekistan</option>
+				<option value="VU">Vanuatu</option>
+				<option value="VE">Venezuela, Bolivarian Republic of</option>
+				<option value="VN">Viet Nam</option>
+				<option value="VG">Virgin Islands, British</option>
+				<option value="VI">Virgin Islands, U.S.</option>
+				<option value="WF">Wallis and Futuna</option>
+				<option value="EH">Western Sahara</option>
+				<option value="YE">Yemen</option>
+				<option value="ZM">Zambia</option>
+				<option value="ZW">Zimbabwe</option>
+			</select>
+				
+			<label for="form-carton-quantity">Carton Quantity</label>
+			<input name="carton-quantity" id="form-carton-quantity" type="number" placeholder="0.00"
+				   style="width: 100%"
+				   data-name="Carton Quantity" data-mapping-id="carton-quantity" data-tag="false" data-valid="" data-default="0.00"/>
+
+			<div class="range-slider disabled">
+				<label for="form-misc-sort-priority">Sort Priority</label>
+			  	<input class="range-slider__range" name="misc-sort-priority" id="form-misc-sort-priority"
+			  		   type="range" min="1" max="99" size="2" style="width: 100%" disabled
+			  		   data-name="Sort Priority" data-mapping-id="sort-priority" data-tag="false" data-valid="" data-default=""/>
+			  	<span class="range-slider__value"></span>
+			</div>
+
+			<!-- START HIDDEN FIELDS
+				 Used for mapping purposes, can be enabled for actual form input
+			-->
+			<div class="disabled" id="form-misc-product-type"
+				 data-name="Product Type" data-mapping-id="product-type" data-tag="false" data-valid="" data-default="Stock">
+			</div>
+
+			<div class="disabled" id="form-misc-attribute-set"
+				 data-name="Attribute Set" data-mapping-id="attribute-set" data-tag="false" data-valid="" data-default="">
+			</div>
+
+			<div class="disabled" id="form-misc-default-location"
+				 data-name="Default Location" data-mapping-id="default-location" data-tag="false" data-valid="" data-default="PPL | WH | Main Warehouse | Shed">
+			</div>
+
+			<div class="disabled" id="form-misc-unit-of-measure"
+				 data-name="UOM" data-mapping-id="unit-of-measure" data-tag="false" data-valid="" data-default="Each">
+			</div>
+			<!-- END HIDDEN FIELDS -->
+			<div class="row">&nbsp;</div>
+
+		</div>
+
+		<div id="pricing-form" class="twelve columns">
+			<h5 class="section">Custom Tags</h5>
+			<div id="product-tag-list" data-mapping-id="product-tag-list" data-tag="false" data-valid="" data-default="">
+				<div class="disabled" id="product-tags" type="text" data-mapping-id="product-tags" data-tag="false" data-valid="" data-default=""></div>
+				<ul id="product-tag-field" data-mapping-id="product-tag-field" data-tag="false" data-valid="" data-default="">
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div id="dimensions-form" class="twelve columns">
+			<h5>Dimensions</h5>
+			
+			<!-- START HIDDEN FIELDS -->
+			<div class="disabled" id="form-product-size-unit"
+				 data-name="Size Unit" data-mapping-id="product-size-unit" data-tag="false" data-valid="" data-default="centimetre">
+			</div>
+			
+			<div class="disabled" id="form-product-weight-unit"
+				 data-name="Weight Unit" data-mapping-id="product-weight-unit" data-tag="false" data-valid="" data-default="kilogram">
+			</div>
+			<!-- END HIDDEN FIELDS -->
+
+			<div class="row">
+			    <div class="quad-col-left">
+					<label for="form-product-weight">Weight (kg)</label>
+					<input name="product-weight" id="form-product-weight" type="number"
+						   placeholder="0.3" style="width: 100%" required
+						   data-name="Product Weight" data-mapping-id="product-weight" data-tag="false" data-valid="" data-default=""/>
+				</div>
+			
+			    <div class="quad-col-mid">
+					<label for="form-product-length">Length (cm)</label>
+					<input name="product-length" id="form-product-length" type="number"
+						   placeholder="5.0" style="width: 100%"
+						   data-name="Product Length" data-mapping-id="product-length" data-tag="false" data-valid="" data-default="5.00"/>
+				</div>
+				
+				<div class="quad-col-mid">
+					<label for="form-product-width">Width (cm)</label>
+					<input name="product-width" id="form-product-width" type="number"
+						   placeholder="4.0" style="width: 100%"
+						   data-name="Product Width" data-mapping-id="product-width" data-tag="false" data-valid="" data-default="4.00"/>
+				</div>
+			
+				<div class="quad-col-right">
+					<label for="form-product-height">Height (cm)</label>
+					<input name="product-height" id="form-product-height" type="number"
+						   placeholder="4.0" style="width: 100%"
+						   data-name="Product Height" data-mapping-id="product-height" data-tag="false" data-valid="" data-default="4.00"/>
+				</div>
+
+			</div>
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div id="variants-form" class="twelve columns">
+
+			<h5 class="section">Product Variants</h5>
+
+
+			<div class="column tri-col-left" style="">
+				<label for="form-variant-1">Variant 1</label>
+				<select name="variant-1" id="form-variant-1" style="width: 100%" required
+						data-name="Variant 1" data-mapping-id="variant-1" data-tag="false" data-valid="" data-default="Colour">
+					<option value='' disabled selected>No options</option>
+				</select>
+
+				<!-- TEST CONTENT: Remove on completion
+				<div class="row add-field-container">
+					<input class="variant-option-1" type="text" placeholder="Variant Option" onchange="simple_validation(this)" required data-mapping-id="variant-options-1" data-flag="true" data-valid="" data-default="Red" value="Red"/>
+				<div class="del-field-btn del-variant-btn-1"><i class="fa fa-trash" aria-hidden="true"></i></div></div>
+
+				<div class="row add-field-container">
+					<input class="variant-option-1" type="text" placeholder="Variant Option" onchange="simple_validation(this)" required data-mapping-id="variant-options-1" data-flag="true" data-valid="" data-default="Navy" value="Navy"/>
+				<div class="del-field-btn del-variant-btn-1"><i class="fa fa-trash" aria-hidden="true"></i></div></div>
+				-->
+				<!-- TEST CONTENT: Remove on completion -->
+
+				<div class="add-field-btn disabled" id="add-variant-1">
+					<i id="add-variant-btn-1" class="fa fa-plus-square" aria-hidden="true"></i>
+					<div id="add-variant-txt-1"></div>
+				</div>
+			</div>
+
+			<div class="column tri-col-mid" style="">
+				<label for="form-variant-2">Variant 2</label>
+				<select name="variant-2" id="form-variant-2" style="width: 100%"
+						data-name="Variant 2" data-mapping-id="variant-2" data-tag="false" data-valid="" data-default="Size">
+					<option value='' disabled selected>No options</option>
+				</select>
+
+				<!-- TEST CONTENT: Remove on completion
+				<div class="row add-field-container">
+					<input class="variant-option-2" type="text" placeholder="Variant Option" onchange="simple_validation(this)" required data-mapping-id="variant-options-2" data-flag="true" data-valid="" data-default="S" value="S"/>
+				<div class="del-field-btn del-variant-btn-2"><i class="fa fa-trash" aria-hidden="true"></i></div></div>
+
+				<div class="row add-field-container">
+					<input class="variant-option-2" type="text" placeholder="Variant Option" onchange="simple_validation(this)" required data-mapping-id="variant-options-2" data-flag="true" data-valid="" data-default="M" value="M"/>
+				<div class="del-field-btn del-variant-btn-2"><i class="fa fa-trash" aria-hidden="true"></i></div></div>
+				<div class="row add-field-container">
+					<input class="variant-option-2" type="text" placeholder="Variant Option" onchange="simple_validation(this)" required data-mapping-id="variant-options-2" data-flag="true" data-valid="" data-default="L" value="L"/>
+				<div class="del-field-btn del-variant-btn-2"><i class="fa fa-trash" aria-hidden="true"></i></div></div>
+				-->
+				<!-- TEST CONTENT: Remove on completion -->
+
+				<div class="add-field-btn disabled" id="add-variant-2">
+					<i id="add-variant-btn-2" class="fa fa-plus-square" aria-hidden="true"></i>
+					<div id="add-variant-txt-2"></div>
+				</div>
+			</div>
+
+			<div class="column tri-col-right" style="">
+				<label for="form-variant-3">Variant 3</label>
+				<select name="variant-3" id="form-variant-3" style="width: 100%"
+						data-name="Variant 3" data-mapping-id="variant-3" data-tag="false" data-valid="" data-default="">
+					<option value='' disabled selected>No options</option>
+				</select>
+
+				<div class="add-field-btn disabled" id="add-variant-3">
+					<i id="add-variant-btn-3" class="fa fa-plus-square" aria-hidden="true"></i>
+					<div id="add-variant-txt-3"></div>
+				</div>
+			</div>
+
+			<input id="variant-generate" type="button" value="Generate Variants" style="width: 100%"/>
+
+			<div class="row">
+				<div id="variant-matrix" class="twelve columns">
+					<h5 class="section">Variant Matrix</h5>
+					<!--
+					<div class="row">
+						<a class="disabled button float-left" id="fill-barcodes" href="#">
+							<i class="fa fa-barcode valid-sku" aria-hidden="true"></i>
+							<div><p>Auto-Fill Barcodes</p></div>
+						</a>
+						<a class="button float-right" id="fill-placeholder-barcodes" href="#">
+							<i class="fa fa-code" aria-hidden="true"></i>
+							<div><p>Apply Placeholders</p></div>
+						</a>
+					</div>
+					-->
+					<div id="variant-table"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="bc-integration-form" class="twelve columns">
+
+			<div class="six columns float-left">
+				<h5>E-commerce Integration</h5>
+
+				<label for="form-bigcommerce-integration">Sync Product To Bigcommerce?</label>
+				<input name="form-bigcommerce-integration" id="form-bigcommerce-integration" style="width: 100%"
+					   type="checkbox"
+					   data-name="SyncToBC" data-mapping-id="bigcommerce_integration" data-default=""/>
+
+
+				<div id="showBCStores" style="display: none;">
+					<label for="form-bigcommerce-integration-stores">Stores</label>
+					<select name="form-bigcommerce-integration-stores" id="form-bigcommerce-integration-stores" style="width: 100%" required
+							data-name="BCStores" data-mapping-id="bigcommerce_stores"  data-default="">
+						<option value='' disabled selected>No options</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row">&nbsp;</div>
+
+		</div>
+	</div>
+	<div class="row">&nbsp;</div>
+
+	<input id="submit-form" type="button" value="Submit" style="width: 100%"/>
+
+</form>

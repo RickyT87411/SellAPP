@@ -1,0 +1,2891 @@
+{
+	"contents" :
+	{
+		"Playbill Pty Ltd" : {
+			"variant-1" : {
+				"Sport" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				}
+			},
+			"variant-2" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				}
+			},
+			"variant-3" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				}
+			},
+			"product-type" : {
+				"Sport" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Media" 		: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Media" 		: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				}
+			},
+			"attribute-set" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Sport Merchandise Attributes"
+						,"Accessories" 	: "Sport Merchandise Attributes"
+						,"Programs" 	: "Sport Merchandise Attributes"
+						,"Recordings" 	: "Sport Merchandise Attributes"
+						,"Other"	 	: "Sport Merchandise Attributes"
+						,"Playbill Other": "Sport Merchandise Attributes"
+						,"Charity" 		: "Sport Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sport Merchandise Attributes"
+						,"Accessories" 	: "Sport Merchandise Attributes"
+						,"Programs" 	: "Sport Merchandise Attributes"
+						,"Recordings" 	: "Sport Merchandise Attributes"
+						,"Other"	 	: "Sport Merchandise Attributes"
+						,"Playbill Other": "Sport Merchandise Attributes"
+						,"Charity" 		: "Sport Merchandise Attributes"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Theatre Merchandise Attributes"
+						,"Accessories" 	: "Theatre Merchandise Attributes"
+						,"Programs" 	: "Theatre Program Attributes"
+						,"Media" 		: "Theatre Merchandise Attributes"
+						,"Other"	 	: "Theatre Merchandise Attributes"
+						,"Playbill Other": "Theatre Merchandise Attributes"
+						,"Charity" 		: "Theatre Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Theatre Merchandise Attributes"
+						,"Accessories" 	: "Theatre Merchandise Attributes"
+						,"Programs" 	: "Theatre Program Attributes"
+						,"Media" 		: "Theatre Merchandise Attributes"
+						,"Other"	 	: "Theatre Merchandise Attributes"
+						,"Playbill Other": "Theatre Merchandise Attributes"
+						,"Charity" 		: "Theatre Merchandise Attributes"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Popup Merchandise Attributes"
+						,"Accessories" 	: "Popup Merchandise Attributes"
+						,"Programs" 	: "Popup Program Attributes"
+						,"Recordings" 	: "Popup Merchandise Attributes"
+						,"Other"	 	: "Popup Merchandise Attributes"
+						,"Playbill Other": "Popup Merchandise Attributes"
+						,"Charity" 		: "Popup Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Popup Merchandise Attributes"
+						,"Accessories" 	: "Popup Merchandise Attributes"
+						,"Programs" 	: "Popup Program Attributes"
+						,"Recordings" 	: "Popup Merchandise Attributes"
+						,"Other"	 	: "Popup Merchandise Attributes"
+						,"Playbill Other": "Popup Merchandise Attributes"
+						,"Charity" 		: "Popup Merchandise Attributes"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "Other Attributes"
+						,"Accessories" 	: "Other Attributes"
+						,"Programs" 	: "Other Attributes"
+						,"Recordings" 	: "Other Attributes"
+						,"Other"	 	: "Other Attributes"
+						,"Playbill Other": "Other Attributes"
+						,"Charity" 		: "Other Attributes"
+					}
+                }
+			},
+			"default-location" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				},
+				"Theatre" : {
+					 "!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				},
+				"Popup" : {
+					 "!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+                }
+			},
+			"unit-of-measure" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+                }
+			},
+			"sort-priority" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+                }
+			},
+			"cogs-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS – Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+                }
+			},
+			"expense-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS – Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+				}
+			},
+			"inventory-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory"
+						,"Accessories" 	: "Inventory"
+						,"Programs" 	: "Inventory"
+						,"Recordings" 	: "Inventory"
+						,"Other"	 	: "Inventory"
+						,"Playbill Other": "Inventory"
+						,"Charity"		: "Inventory"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Recordings" 	: "Inventory Clearing Account"
+						,"Other"	 	: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity"		: "Inventory Clearing Account"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Theatre"
+						,"Accessories" 	: "Inventory - Theatre"
+						,"Programs" 	: "Inventory - Theatre"
+						,"Media"	 	: "Inventory - Theatre"
+						,"Other"	 	: "Inventory - Theatre"
+						,"Playbill Other": "Inventory - Theatre"
+						,"Charity"	 	: "Inventory - Theatre"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Media" 		: "Inventory Clearing Account"
+						,"Other" 		: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity" 		: "Inventory Clearing Account"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Popup"
+						,"Accessories" 	: "Inventory - Popup"
+						,"Programs" 	: "Inventory - Popup"
+						,"Recordings" 	: "Inventory - Popup"
+						,"Other" 		: "Inventory - Popup"
+						,"Playbill Other": "Inventory - Popup"
+						,"Charity" 		: "Inventory - Popup"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Recordings" 	: "Inventory Clearing Account"
+						,"Other"	 	: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity"		: "Inventory Clearing Account"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Office Misc"
+						,"Accessories" 	: "Inventory - Office Misc"
+						,"Programs" 	: "Inventory - Office Misc"
+						,"Recordings" 	: "Inventory - Office Misc"
+						,"Other" 		: "Inventory - Office Misc"
+						,"Playbill Other": "Inventory - Office Misc"
+						,"Charity" 		: "Inventory - Office Misc"
+
+					}
+				}
+			},
+			"revenue-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Recordings" 	: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Recordings" 	: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Media" 		: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Media" 		: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Recordings" 	: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Recordings" 	: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Recordings" 	: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+                }
+			},
+			"season" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media"	 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media" 		: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+                }
+			},
+			"costing-method" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+				}
+			}
+			,
+			"purchase-tax-rule" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Purchases"
+						,"Accessories" 	: "GST Purchases"
+						,"Programs" 	: "GST Purchases"
+						,"Recordings" 	: "GST Purchases"
+						,"Other" 		: "GST Purchases"
+						,"Playbill Other": "GST Purchases"
+						,"Charity" 		: "GST Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other" 		: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Media" 		: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Media" 		: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				}
+			},
+			"sale-tax-rule" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Recordings" 	: "GST"
+						,"Other" 		: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Recordings" 	: "GST on Consignment"
+						,"Other" 		: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Media" 		: "GST"
+						,"Other"	 	: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Media" 		: "GST on Consignment"
+						,"Other"	 	: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Recordings" 	: "GST"
+						,"Other"	 	: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Recordings" 	: "GST on Consignment"
+						,"Other"	 	: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				},
+				"Other" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Recordings" 	: "GST"
+						,"Other"	 	: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+					}
+				}
+			}
+		},
+		"Playbill NZ" : {
+			"variant-1" : {
+				"Sport" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Edition"
+						,"Recordings" 	: "Pack"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				}
+			},
+			"variant-2" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				}
+			},
+			"variant-3" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				}
+			},
+			"product-type" : {
+				"Sport" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Media" 		: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Media" 		: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						"Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Stock"
+						,"Accessories" 	: "Stock"
+						,"Programs" 	: "Stock"
+						,"Recordings" 	: "Stock"
+						,"Other"	 	: "Stock"
+						,"Playbill Other": "Stock"
+						,"Charity"	 	: "Stock"
+					}
+				}
+			},
+			"attribute-set" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Sport Merchandise Attributes"
+						,"Accessories" 	: "Sport Merchandise Attributes"
+						,"Programs" 	: "Sport Merchandise Attributes"
+						,"Recordings" 	: "Sport Merchandise Attributes"
+						,"Other"	 	: "Sport Merchandise Attributes"
+						,"Playbill Other": "Sport Merchandise Attributes"
+						,"Charity" 		: "Sport Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sport Merchandise Attributes"
+						,"Accessories" 	: "Sport Merchandise Attributes"
+						,"Programs" 	: "Sport Merchandise Attributes"
+						,"Recordings" 	: "Sport Merchandise Attributes"
+						,"Other"	 	: "Sport Merchandise Attributes"
+						,"Playbill Other": "Sport Merchandise Attributes"
+						,"Charity" 		: "Sport Merchandise Attributes"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Theatre Merchandise Attributes"
+						,"Accessories" 	: "Theatre Merchandise Attributes"
+						,"Programs" 	: "Theatre Program Attributes"
+						,"Media" 		: "Theatre Merchandise Attributes"
+						,"Other"	 	: "Theatre Merchandise Attributes"
+						,"Playbill Other": "Theatre Merchandise Attributes"
+						,"Charity" 		: "Theatre Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Theatre Merchandise Attributes"
+						,"Accessories" 	: "Theatre Merchandise Attributes"
+						,"Programs" 	: "Theatre Program Attributes"
+						,"Media" 		: "Theatre Merchandise Attributes"
+						,"Other"	 	: "Theatre Merchandise Attributes"
+						,"Playbill Other": "Theatre Merchandise Attributes"
+						,"Charity" 		: "Theatre Merchandise Attributes"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Popup Merchandise Attributes"
+						,"Accessories" 	: "Popup Merchandise Attributes"
+						,"Programs" 	: "Popup Program Attributes"
+						,"Recordings" 	: "Popup Merchandise Attributes"
+						,"Other"	 	: "Popup Merchandise Attributes"
+						,"Playbill Other": "Popup Merchandise Attributes"
+						,"Charity" 		: "Popup Merchandise Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Popup Merchandise Attributes"
+						,"Accessories" 	: "Popup Merchandise Attributes"
+						,"Programs" 	: "Popup Program Attributes"
+						,"Recordings" 	: "Popup Merchandise Attributes"
+						,"Other"	 	: "Popup Merchandise Attributes"
+						,"Playbill Other": "Popup Merchandise Attributes"
+						,"Charity" 		: "Popup Merchandise Attributes"
+					}
+				}
+			},
+			"default-location" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				},
+				"Theatre" : {
+					 "!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				},
+				"Popup" : {
+					 "!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Recordings" 	: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"		: "!{blank}"
+					}
+				}
+			},
+			"unit-of-measure" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Recordings" 	: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				}
+			},
+			"sort-priority" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Recordings" 	: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				}
+			},
+			"cogs-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS – Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"expense-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS – Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Recordings" 	: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Recordings" 	: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"inventory-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory"
+						,"Accessories" 	: "Inventory"
+						,"Programs" 	: "Inventory"
+						,"Recordings" 	: "Inventory"
+						,"Other"	 	: "Inventory"
+						,"Playbill Other": "Inventory"
+						,"Charity"		: "Inventory"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Recordings" 	: "Inventory Clearing Account"
+						,"Other"	 	: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity"		: "Inventory Clearing Account"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Theatre"
+						,"Accessories" 	: "Inventory - Theatre"
+						,"Programs" 	: "Inventory - Theatre"
+						,"Media"	 	: "Inventory - Theatre"
+						,"Other"	 	: "Inventory - Theatre"
+						,"Playbill Other": "Inventory - Theatre"
+						,"Charity"	 	: "Inventory - Theatre"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Media" 		: "Inventory Clearing Account"
+						,"Other" 		: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity" 		: "Inventory Clearing Account"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Popup"
+						,"Accessories" 	: "Inventory - Popup"
+						,"Programs" 	: "Inventory - Popup"
+						,"Recordings" 	: "Inventory - Popup"
+						,"Other" 		: "Inventory - Popup"
+						,"Playbill Other": "Inventory - Popup"
+						,"Charity" 		: "Inventory - Popup"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Recordings" 	: "Inventory Clearing Account"
+						,"Other"	 	: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity"		: "Inventory Clearing Account"
+					}
+				}
+			},
+			"revenue-account" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Recordings" 	: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Recordings" 	: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Media" 		: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Media" 		: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Recordings" 	: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Recordings" 	: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				}
+			},
+			"season" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media"	 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media" 		: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Recordings" 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				}
+			},
+			"costing-method" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Recordings" 	: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				}
+			}
+			,
+			"purchase-tax-rule" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Purchases"
+						,"Accessories" 	: "GST Purchases"
+						,"Programs" 	: "GST Purchases"
+						,"Recordings" 	: "GST Purchases"
+						,"Other" 		: "GST Purchases"
+						,"Playbill Other": "GST Purchases"
+						,"Charity" 		: "GST Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other" 		: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Media" 		: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Media" 		: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST Free Purchases"
+						,"Accessories" 	: "GST Free Purchases"
+						,"Programs" 	: "GST Free Purchases"
+						,"Recordings" 	: "GST Free Purchases"
+						,"Other"	 	: "GST Free Purchases"
+						,"Playbill Other": "GST Free Purchases"
+						,"Charity" 		: "GST Free Purchases"
+					}
+				}
+			},
+			"sale-tax-rule" : {
+				"Sport" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Recordings" 	: "GST"
+						,"Other" 		: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Recordings" 	: "GST on Consignment"
+						,"Other" 		: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				},
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Media" 		: "GST"
+						,"Other"	 	: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Media" 		: "GST on Consignment"
+						,"Other"	 	: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				},
+				"Popup" : {
+					"!{default}": {
+						 "Apparel" 		: "GST"
+						,"Accessories" 	: "GST"
+						,"Programs" 	: "GST"
+						,"Recordings" 	: "GST"
+						,"Other"	 	: "GST"
+						,"Playbill Other": "GST"
+						,"Charity" 		: "GST Free"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "GST on Consignment"
+						,"Accessories" 	: "GST on Consignment"
+						,"Programs" 	: "GST on Consignment"
+						,"Recordings" 	: "GST on Consignment"
+						,"Other"	 	: "GST on Consignment"
+						,"Playbill Other": "GST on Consignment"
+						,"Charity" 		: "GST on Consignment"
+					}
+				}
+			}
+		},
+		"Platypus Productions LLC" : {
+			"variant-1" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				}
+			},
+			"variant-2" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				}
+			},
+			"variant-3" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				}
+			},
+			"product-type" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Non Inventory"
+						,"Accessories" 	: "Non Inventory"
+						,"Programs" 	: "Non Inventory"
+						,"Media" 		: "Non Inventory"
+						,"Other"	 	: "Non Inventory"
+						,"Playbill Other": "Non Inventory"
+						,"Charity"	 	: "Non Inventory"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Non Inventory"
+						,"Accessories" 	: "Non Inventory"
+						,"Programs" 	: "Non Inventory"
+						,"Media" 		: "Non Inventory"
+						,"Other"	 	: "Non Inventory"
+						,"Playbill Other": "Non Inventory"
+						,"Charity"	 	: "Non Inventory"
+					}
+				}
+			},
+			"attribute-set" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Product Attributes"
+						,"Accessories" 	: "Product Attributes"
+						,"Programs" 	: "Product Attributes"
+						,"Media" 		: "Product Attributes"
+						,"Other"	 	: "Product Attributes"
+						,"Playbill Other": "Product Attributes"
+						,"Charity" 		: "Product Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Product Attributes"
+						,"Accessories" 	: "Product Attributes"
+						,"Programs" 	: "Product Attributes"
+						,"Media" 		: "Product Attributes"
+						,"Other"	 	: "Product Attributes"
+						,"Playbill Other": "Product Attributes"
+						,"Charity" 		: "Product Attributes"
+					}
+				}
+			},
+			"default-location" : {
+				"Theatre" : {
+					 "!{default}": {
+						 "Apparel" 		: "PPLLC | WH | Main Warehouse | 1"
+						,"Accessories" 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Programs" 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Media" 		: "PPLLC | WH | Main Warehouse | 1"
+						,"Other"	 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Playbill Other": "PPLLC | WH | Main Warehouse | 1"
+						,"Charity"		: "PPLLC | WH | Main Warehouse | 1"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "PPLLC | WH | Main Warehouse | 1"
+						,"Accessories" 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Programs" 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Media" 		: "PPLLC | WH | Main Warehouse | 1"
+						,"Other"	 	: "PPLLC | WH | Main Warehouse | 1"
+						,"Playbill Other": "PPLLC | WH | Main Warehouse | 1"
+						,"Charity"		: "PPLLC | WH | Main Warehouse | 1"
+					}
+				}
+			},
+			"unit-of-measure" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				}
+			},
+			"sort-priority" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				}
+			},
+			"cogs-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"expense-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"inventory-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Theatre"
+						,"Accessories" 	: "Inventory - Theatre"
+						,"Programs" 	: "Inventory - Theatre"
+						,"Media"	 	: "Inventory - Theatre"
+						,"Other"	 	: "Inventory - Theatre"
+						,"Playbill Other": "Inventory - Theatre"
+						,"Charity"	 	: "Inventory - Theatre"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Media" 		: "Inventory Clearing Account"
+						,"Other" 		: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity" 		: "Inventory Clearing Account"
+					}
+				}
+			},
+			"revenue-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Media" 		: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Media" 		: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				}
+			},
+			"season" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media"	 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media" 		: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				}
+			},
+			"costing-method" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				}
+			}
+			,
+			"purchase-tax-rule" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Tax Free Purchases"
+						,"Accessories" 	: "Tax Free Purchases"
+						,"Programs" 	: "Tax Free Purchases"
+						,"Media" 		: "Tax Free Purchases"
+						,"Other"	 	: "Tax Free Purchases"
+						,"Playbill Other": "Tax Free Purchases"
+						,"Charity" 		: "Tax Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Tax Free Purchases"
+						,"Accessories" 	: "Tax Free Purchases"
+						,"Programs" 	: "Tax Free Purchases"
+						,"Media" 		: "Tax Free Purchases"
+						,"Other"	 	: "Tax Free Purchases"
+						,"Playbill Other": "Tax Free Purchases"
+						,"Charity" 		: "Tax Free Purchases"
+					}
+				}
+			},
+			"sale-tax-rule" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Tax on Sales"
+						,"Accessories" 	: "Tax on Sales"
+						,"Programs" 	: "Tax on Sales"
+						,"Media" 		: "Tax on Sales"
+						,"Other"	 	: "Tax on Sales"
+						,"Playbill Other": "Tax on Sales"
+						,"Charity" 		: "Tax on Sales"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Tax on Consignment"
+						,"Accessories" 	: "Tax on Consignment"
+						,"Programs" 	: "Tax on Consignment"
+						,"Media" 		: "Tax on Consignment"
+						,"Other"	 	: "Tax on Consignment"
+						,"Playbill Other": "Tax on Consignment"
+						,"Charity" 		: "Tax on Consignment"
+					}
+				}
+			}
+		},
+		"Playbill UK Ltd" : {
+			"variant-1" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Colour"
+						,"Accessories" 	: "Style"
+						,"Programs" 	: "Location"
+						,"Media" 		: "Edition"
+						,"Other"	 	: "Misc"
+						,"Playbill Other": "Misc"
+						,"Charity"	 	: "Colour"
+					}
+				}
+			},
+			"variant-2" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Size"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "Size"
+					}
+				}
+			},
+			"variant-3" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{blank}"
+						,"Accessories" 	: "!{blank}"
+						,"Programs" 	: "!{blank}"
+						,"Media" 		: "!{blank}"
+						,"Other"	 	: "!{blank}"
+						,"Playbill Other": "!{blank}"
+						,"Charity"	 	: "!{blank}"
+					}
+				}
+			},
+			"product-type" : {
+				"Theatre" : {
+					"!{default}": {
+						"Apparel" 		: "Non Inventory"
+						,"Accessories" 	: "Non Inventory"
+						,"Programs" 	: "Non Inventory"
+						,"Media" 		: "Non Inventory"
+						,"Other"	 	: "Non Inventory"
+						,"Playbill Other": "Non Inventory"
+						,"Charity"	 	: "Non Inventory"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Non Inventory"
+						,"Accessories" 	: "Non Inventory"
+						,"Programs" 	: "Non Inventory"
+						,"Media" 		: "Non Inventory"
+						,"Other"	 	: "Non Inventory"
+						,"Playbill Other": "Non Inventory"
+						,"Charity"	 	: "Non Inventory"
+					}
+				}
+			},
+			"attribute-set" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Product Attributes"
+						,"Accessories" 	: "Product Attributes"
+						,"Programs" 	: "Product Attributes"
+						,"Media" 		: "Product Attributes"
+						,"Other"	 	: "Product Attributes"
+						,"Playbill Other": "Product Attributes"
+						,"Charity" 		: "Product Attributes"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Product Attributes"
+						,"Accessories" 	: "Product Attributes"
+						,"Programs" 	: "Product Attributes"
+						,"Media" 		: "Product Attributes"
+						,"Other"	 	: "Product Attributes"
+						,"Playbill Other": "Product Attributes"
+						,"Charity" 		: "Product Attributes"
+					}
+				}
+			},
+			"default-location" : {
+				"Theatre" : {
+					 "!{default}": {
+						 "Apparel" 		: "PBUK | WH | Main Warehouse | 1"
+						,"Accessories" 	: "PBUK | WH | Main Warehouse | 1"
+						,"Programs" 	: "PBUK | WH | Main Warehouse | 1"
+						,"Media" 		: "PBUK | WH | Main Warehouse | 1"
+						,"Other"	 	: "PBUK | WH | Main Warehouse | 1"
+						,"Playbill Other": "PBUK | WH | Main Warehouse | 1"
+						,"Charity"		: "PBUK | WH | Main Warehouse | 1"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "PBUK | WH | Main Warehouse | 1"
+						,"Accessories" 	: "PBUK | WH | Main Warehouse | 1"
+						,"Programs" 	: "PBUK | WH | Main Warehouse | 1"
+						,"Media" 		: "PBUK | WH | Main Warehouse | 1"
+						,"Other"	 	: "PBUK | WH | Main Warehouse | 1"
+						,"Playbill Other": "PBUK | WH | Main Warehouse | 1"
+						,"Charity"		: "PBUK | WH | Main Warehouse | 1"
+					}
+				}
+			},
+			"unit-of-measure" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Each"
+						,"Accessories" 	: "Each"
+						,"Programs" 	: "Each"
+						,"Media" 		: "Each"
+						,"Other"	 	: "Each"
+						,"Playbill Other": "Each"
+						,"Charity"		: "Each"
+					}
+				}
+			},
+			"sort-priority" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "10"
+						,"Accessories" 	: "20"
+						,"Programs" 	: "40"
+						,"Media" 		: "30"
+						,"Other"	 	: "99"
+						,"Playbill Other": "99"
+						,"Charity"		: "99"
+					}
+				}
+			},
+			"cogs-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"expense-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "COGS - Apparel"
+						,"Accessories" 	: "COGS - Accessories"
+						,"Programs" 	: "COGS - Programs"
+						,"Media" 		: "COGS - Recordings"
+						,"Other"	 	: "COGS Clearing Account"
+						,"Playbill Other": "COGS - Playbill Other"
+						,"Charity"		: "COGS - Charity"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "COGS - Consignment"
+						,"Accessories" 	: "COGS - Consignment"
+						,"Programs" 	: "COGS - Consignment"
+						,"Media" 		: "COGS - Consignment"
+						,"Other"	 	: "COGS - Consignment"
+						,"Playbill Other": "COGS - Consignment"
+						,"Charity"		: "COGS - Consignment"
+					}
+				}
+			},
+			"inventory-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Inventory - Theatre"
+						,"Accessories" 	: "Inventory - Theatre"
+						,"Programs" 	: "Inventory - Theatre"
+						,"Media"	 	: "Inventory - Theatre"
+						,"Other"	 	: "Inventory - Theatre"
+						,"Playbill Other": "Inventory - Theatre"
+						,"Charity"	 	: "Inventory - Theatre"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Inventory Clearing Account"
+						,"Accessories" 	: "Inventory Clearing Account"
+						,"Programs" 	: "Inventory Clearing Account"
+						,"Media" 		: "Inventory Clearing Account"
+						,"Other" 		: "Inventory Clearing Account"
+						,"Playbill Other": "Inventory Clearing Account"
+						,"Charity" 		: "Inventory Clearing Account"
+					}
+				}
+			},
+			"revenue-account" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Sales - Apparel"
+						,"Accessories" 	: "Sales - Accessories"
+						,"Programs" 	: "Sales - Programs"
+						,"Media" 		: "Sales - Recordings"
+						,"Other" 		: "Sales Clearing Account"
+						,"Playbill Other": "Sales - Playbill Other"
+						,"Charity" 		: "Sales - Charity"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Sales - Consignment"
+						,"Accessories" 	: "Sales - Consignment"
+						,"Programs" 	: "Sales - Consignment"
+						,"Media" 		: "Sales - Consignment"
+						,"Other" 		: "Sales - Consignment"
+						,"Playbill Other": "Sales - Consignment"
+						,"Charity" 		: "Sales - Consignment"
+					}
+				}
+			},
+			"season" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media"	 	: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "!{current_year}"
+						,"Accessories" 	: "!{current_year}"
+						,"Programs" 	: "!{current_year}"
+						,"Media" 		: "!{current_year}"
+						,"Other" 		: "!{current_year}"
+						,"Playbill Other": "!{current_year}"
+						,"Charity" 		: "!{current_year}"
+					}
+				}
+			},
+			"costing-method" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "FIFO"
+						,"Accessories" 	: "FIFO"
+						,"Programs" 	: "FIFO"
+						,"Media" 		: "FIFO"
+						,"Other" 		: "FIFO"
+						,"Playbill Other": "FIFO"
+						,"Charity" 		: "FIFO"
+					}
+				}
+			}
+			,
+			"purchase-tax-rule" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Tax Free Purchases"
+						,"Accessories" 	: "Tax Free Purchases"
+						,"Programs" 	: "Tax Free Purchases"
+						,"Media" 		: "Tax Free Purchases"
+						,"Other"	 	: "Tax Free Purchases"
+						,"Playbill Other": "Tax Free Purchases"
+						,"Charity" 		: "Tax Free Purchases"
+
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Tax Free Purchases"
+						,"Accessories" 	: "Tax Free Purchases"
+						,"Programs" 	: "Tax Free Purchases"
+						,"Media" 		: "Tax Free Purchases"
+						,"Other"	 	: "Tax Free Purchases"
+						,"Playbill Other": "Tax Free Purchases"
+						,"Charity" 		: "Tax Free Purchases"
+					}
+				}
+			},
+			"sale-tax-rule" : {
+				"Theatre" : {
+					"!{default}": {
+						 "Apparel" 		: "Tax on Sales"
+						,"Accessories" 	: "Tax on Sales"
+						,"Programs" 	: "Tax Free Sales"
+						,"Media" 		: "Tax Free Sales"
+						,"Other"	 	: "Tax on Sales"
+						,"Playbill Other": "Tax on Sales"
+						,"Charity" 		: "Tax Free Sales"
+					}
+					,"Consignment": {
+						 "Apparel" 		: "Tax on Consignment"
+						,"Accessories" 	: "Tax on Consignment"
+						,"Programs" 	: "Tax on Consignment"
+						,"Media" 		: "Tax on Consignment"
+						,"Other"	 	: "Tax on Consignment"
+						,"Playbill Other": "Tax on Consignment"
+						,"Charity" 		: "Tax on Consignment"
+					}
+				}
+			}
+		}
+	}
+}

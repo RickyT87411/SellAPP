@@ -1,0 +1,34 @@
+{
+  "contents" : {
+    "dev" : {
+      "headers" : {
+        "Content-Type"	    : "application/json"
+        ,"Accept"			: "application/json"
+        ,"Authorization"	: "Bearer 43b3fdd03e9245b3dcfa19af620794fea333f290debe727c4ffaf03182b53d24"
+      },
+      "endpoints" : {
+        "post-product"			: "https://dev.api.playbill.com.au/api/v2/vendor/pct/webhook/product-sync"
+      }
+    },
+    "prod" : {
+      "headers" : {
+        "Content-Type"		: "application/json"
+        ,"Accept"			: "application/json"
+        ,"Authorization"	: "Bearer 43b3fdd03e9245b3dcfa19af620794fea333f290debe727c4ffaf03182b53d24"
+      },
+      "endpoints" : {
+        "post-product"			: "https://api.playbill.group/api/v2/vendor/pct/webhook/product-sync"
+      }
+    },
+    "local" : {
+      "headers" : {
+        "Content-Type"	: "application/json; charset=utf-8"
+      ,"Accept"			: "application/json"
+      ,"Authorization"	: "Bearer 43b3fdd03e9245b3dcfa19af620794fea333f290debe727c4ffaf03182b53d24"
+      },
+      "endpoints" : {
+        "post-product"			: "http://localhost:8080/api/v2/vendor/pct/webhook/product-sync"
+      }
+    }
+  }
+}

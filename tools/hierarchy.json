@@ -1,0 +1,555 @@
+{
+	"contents" : {
+		"tier-2" : {
+			"Sport" : {
+				 "Adults" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Babies" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bags" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Book" 				: {"Apparel":false,	"Accessories":true, "Recordings":true,	"Programs":false}
+				,"Car" 					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Finals" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":true}
+				,"Footwear" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gameday" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":true}
+				,"Gift" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Headwear"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Homewear" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Infants" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Kids" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ladies" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Main" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mens" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc" 				: {"Apparel":false,	"Accessories":true,	"Recordings":true,	"Programs":false}
+				,"Memorabilia" 			: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":false}
+				,"Novelty" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pet" 					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Premiership"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Prints" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"School" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toddlers" 			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trinkets" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			},
+	
+			"Theatre" : {
+			},
+			
+			"Popup" : {
+				 "Adults" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Babies" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ballet" 				: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Bags" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Book" 				: {"Apparel":false,	"Accessories":true, "Recordings":true,	"Programs":false}
+				,"Car" 					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"CD" 					: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Concert" 				: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Decoration"			: {"Other":true}
+				,"Exhibition" 			: {"Apparel":false,	"Accessories":false,"Recordings":false,	"Programs":true}
+				,"Fitted"	 			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Footwear" 			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Girls" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Headwear"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Homewear" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Infants" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Kids" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ladies" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Main" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mens" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc" 				: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":false}
+				,"Musical" 				: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Novelty" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Opera" 				: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Pet" 					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Play" 				: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Prints" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Scarf" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"School" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stationery" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toddlers" 			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trinkets" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Unisex" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Youths" 				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			}
+		},
+		"tier-3" : {
+			"Sport" : {
+				 "3 Piece Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Apron"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Arm band"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Backpack"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Badge"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Badge Set" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bag"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Balls"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bar"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bathrobe"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"BBQ"                  : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanie"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanie Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanies"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bedding"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Belt"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bib"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bib Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bibs"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Biography"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Blanket"              : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bobblehead"           : {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bodysuit"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Boots"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Boots"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bottle"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bottle Opener"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bracelet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Braces"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bucket Hat"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Calendar"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Can Cooler"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas Print" 		: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Caps"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Card"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cards"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Charm"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Clock"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Clothing Set"         : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}   
+				,"Coasters"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Coffee Mug" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Comforter"            : {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cooler"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cooler Bag"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Coverall"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cricket Bat"			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cufflinks"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cushion"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Decal"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dog"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dog Tag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Doona Cover"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dress"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Drink Bottle"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dummy"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"DVD"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Earring"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Esky"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Fan hand"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Figurine"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Flag"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Fleece"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Football"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Footy Record"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Footysuit"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gearbag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gift Bag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Glasswear"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gloves"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Guernsey"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hardhats"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hats"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Headband"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Helmets"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hoody"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"iPhone5"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jacket"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jersey"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jumper"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Keyring"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ladder"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Lanyard"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Long Sleeve"          : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Magazine"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Magnet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Memorabilia"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc"                 : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mug Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mugs"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Name"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Notebook"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Notepad" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Novelty"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Number"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Onesie"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ornament"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pants"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pen"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pencil"	     		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pencil Case"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pendant"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pillow Case"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pin"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Premiers"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Plush"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Polo"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Postcard Set" 		: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poster" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Puffer Vest"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Puzzle"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pyjamas"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Radio"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ring"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Romper"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Roosters"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rugby"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rugby Jersey"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Satchel"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Scarf"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"School"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Set"                  : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Shirts"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Shorts"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sign"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Singlet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Singlet Shorts"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Slippers"     		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Socks"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Soundcube"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sleeping Bag"         : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sticker"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stickers"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stocking"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Straw Hat"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stress"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stubby Cooler"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stuffed Toy"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"T-shirt"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tank Top"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tea Towel" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Thongs"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Throw"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie Bar"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie Clip"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tights"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toothbrush"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Top"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tote Bag" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toy Car"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}			
+				,"Towel"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Track Pants"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trackpants"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trophy"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ugg Boots"            : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Umbrella"             : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Vest"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Visors"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wallet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Warmers"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Watch"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Waterbottle"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wine Glass"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			},
+	
+			"Theatre" : {
+			},
+			
+			"Popup" : {
+				 "3 Piece Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Activity book"		: {"Apparel":false,	"Accessories":true,"Recordings":false,	"Programs":false}
+				,"Apron"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Arm band"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Backpack"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Badge"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Badge Set" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bag"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Balls"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bar"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bathrobe"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanie"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanie Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Beanies"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bedding"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Belt"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bib"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bib Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bibs"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Biography"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Blanket"              : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Boots"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bottle"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bottle Opener"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bracelet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Bucket Hat"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Calendar"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Can Cooler"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas Print" 		: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Caps"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Card"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cards"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Charm"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Clock"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Coasters"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Coffee Mug" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Collectible"			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Comforter"            : {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cooler"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cooler Bag"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Costume"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Coverall"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cufflinks"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cushion"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Decal"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dog"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dog Tag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Doona Cover"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dress"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Drink Bottle"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Dummy"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Earring"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Esky"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Fan"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Flag"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Fleece"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gearbag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gift Bag"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Glasswear"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gloves"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hardhats"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hats"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Headband"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Helmets"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Hoody"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"iPhone5"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jacket"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jersey"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jumper"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Keyring"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ladder"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Lanyard"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Magazine"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Magnet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mug Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Mugs"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Name"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Notebook"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Notepad" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Novelty"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Number"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Onesie"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ornament"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pants"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pen"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pencil Case"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pendant"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Photo"				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":true}
+				,"Pillow Case"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Pin"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Plush"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Polo"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Postcard Set" 		: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poster" 				: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Puffer Vest"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Puzzle"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Radio"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ring"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Romper"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Roosters"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rugby"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rugby Jersey"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Satchel"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Scarf"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"School"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Shirts"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Shorts"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Show Bag" 			: {"Apparel":false,	"Accessories":true,"Recordings":false,	"Programs":false}
+				,"Sign"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Singlet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Singlet Shorts"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Socks"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Soundcube"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sticker"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stickers"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stocking"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stress"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stubby Cooler"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stuffed Toy"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"T-shirt"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tank Top"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tea Towel" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Thongs"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Throw"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie Bar"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tie Clip"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tights"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toothbrush"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Top"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tote Bag" 			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Towel"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Toy"					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Track Pants"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trackpants"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Trophy"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Vest"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Visors"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wallet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Watch"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Waterbottle"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wine Glass"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			}
+		},
+		"tier-4" : {
+			"Sport" : {
+				 "2-Pack"				: {"Apparel":false,	"Accessories":true,	"Recordings":true,	"Programs":false}
+				,"4DVD"					: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":false}
+				,"Acrylic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Aluminium"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Car"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cardboard"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ceramic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Clock"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Nylon"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Poly"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"DVD"					: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":false}
+				,"Electronic"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Esky"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Foam"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Glass"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Leather"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Logo"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Medium"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Metal"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Microfibre"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Mug Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Neoprene"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"NonFiction"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Nylon"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Paper"				: {"Apparel":false,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Paperback"			: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Plastic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Plush"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poly/Cotton"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poly/Cotton/Rayon"	: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Polyester"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poly/Resin"			: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"PU Foam"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"PVC"					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Replica"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ripstop"              : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rubber"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sandstone"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sheet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Silk"                 : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sports"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stein Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Synthetic "			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Taslon"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Teamwear"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tin"					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Transfer"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wood"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wood/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool blend"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			},
+	
+			"Theatre" : {
+			},
+			
+			"Popup" : {
+				 "2-Pack"				: {"Apparel":false,	"Accessories":true,	"Recordings":true,	"Programs":false}
+				,"4DVD"					: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":false}
+				,"Acrylic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Aluminium"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Canvas"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Car"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cardboard"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Ceramic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Clock"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Nylon"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Poly"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Cotton/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"DVD"					: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":false}
+				,"Electronic"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Esky"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Foam"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Glass"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Leather"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Logo"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Medium"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Metal"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Microfibre"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Mug Set"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Neoprene"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"NonFiction"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Nylon"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Paper"				: {"Apparel":false,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Paperback"			: {"Apparel":false,	"Accessories":false,"Recordings":true,	"Programs":true}
+				,"Plastic"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Plush"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poly/Cotton"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Poly/Cotton/Rayon"	: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Polyester"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"PU Foam"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"PVC"					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Replica"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Rubber"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sheet"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sports"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Stein Set"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Synthetic "			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Taslon"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Teamwear"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Tin"					: {"Apparel":false,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Transfer"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wood"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wood/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool blend"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Wool/Polyester"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			}
+		},
+		"tier-5" : {
+			"Sport" : {
+				 "Away"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Casual"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Charity"				: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Christmas"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Corporate"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Fibre of Footy"		: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"First true8"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Game Ball"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Gameday"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Goalkeeper"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Grand Final"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":true}
+				,"Heritage"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"High Bounce"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Home"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Jersey"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Lifestyle"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"MCC"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"MCG"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Member"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Misc"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Navy"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Novelty"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"NSM"					: {"Apparel":true,	"Accessories":true,	"Recordings":true,	"Programs":true}
+				,"Off-field"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"On-field"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Onfield"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Player"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Premiers"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":true}
+				,"Premium"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Promo"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Red"					: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Replica"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"RLWC"                 : {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Shorts"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Special"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Supporter"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sydney FC"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Sydney Swans"			: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+				,"Training"				: {"Apparel":true,	"Accessories":true,	"Recordings":false,	"Programs":false}
+			},
+	
+			"Theatre" : {
+			}
+		}
+
+	}
+}

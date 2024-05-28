@@ -1,0 +1,80 @@
+body {
+	font-family: arial;
+}
+
+.responsive-table {
+	border: 1px solid #ccc;
+	width: 100%;
+	margin:0;
+	padding:0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.responsive-table tr {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.responsive-table th, .responsive-table td {
+	padding: 10px;
+	text-align: center;
+}
+
+.responsive-table th {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+@media screen and (min-width: 1200px) {
+	.responsive-table-cell-align-center {
+		text-align: center !important;
+	}
+	.responsive-table-cell-align-left {
+		text-align: left !important;
+	}
+	.responsive-table-cell-align-right {
+		text-align: right !important;
+	}
+	.responsive-table td .responsive-table-cell-buffer {
+	  width: 0px;
+	  height: 0px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.responsive-table {
+	  border: 0;
+	}
+
+	.responsive-table thead {
+	  display: none;
+	}
+
+	.responsive-table tr {
+	  margin-bottom: 10px;
+	  display: block;
+	  border-bottom: 2px solid #ddd;
+	}
+
+	.responsive-table td {
+	  display: block;
+	  text-align: right;
+	  font-size: 13px;
+	  border-bottom: 1px dotted #ccc;
+	}
+
+	.responsive-table td:last-child {
+	  border-bottom: 0;
+	}
+
+	.responsive-table td:before {
+	  content: attr(data-label);
+	  float: left;
+	  clear: left;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	}
+}
